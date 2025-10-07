@@ -1,0 +1,155 @@
+/* dashboard.css */
+
+/* Inclusion dans index.html : <link rel="stylesheet" href="dashboard.css"> */
+
+.dashboard-page {
+    padding: 20px 0;
+}
+
+.dashboard-intro {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 30px;
+    border-left: 3px solid var(--color-secondary);
+    padding-left: 15px;
+}
+
+.dashboard-section {
+    margin-bottom: 40px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.dashboard-section h3 {
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+/* ------------------- */
+/* STAT CARDS CONTAINER */
+/* ------------------- */
+.stat-cards-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    flex: 1;
+    min-width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    border: 1px solid #eee;
+}
+
+.stat-icon {
+    font-size: 2.5em;
+    margin-right: 20px;
+}
+
+.stat-value {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--color-secondary);
+    margin: 0;
+}
+
+.stat-title {
+    font-size: 0.9em;
+    color: #555;
+    margin: 0;
+}
+
+/* ------------------- */
+/* PRIORITY TABLE */
+/* ------------------- */
+.priority-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.priority-table th, .priority-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.priority-table th {
+    background-color: var(--color-primary);
+    color: white;
+    font-weight: 600;
+}
+
+.priority-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.priority-tag-small {
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: white;
+}
+
+.priority-eleve .priority-tag-small { background-color: var(--priority-eleve); }
+.priority-moyen .priority-tag-small { background-color: var(--priority-warning); color: var(--color-text); }
+.priority-faible .priority-tag-small { background-color: var(--priority-faible); }
+
+
+/* ------------------- */
+/* ACTION HUB */
+/* ------------------- */
+
+.action-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid var(--color-primary);
+}
+
+.action-rank {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color-secondary);
+    margin-right: 20px;
+    min-width: 30px;
+}
+
+.action-details {
+    flex-grow: 1;
+}
+
+.action-title {
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.action-meta {
+    font-size: 0.85em;
+    color: #888;
+    margin-top: 3px;
+}
+
+.formalize-btn {
+    background-color: var(--color-success);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+    white-space: nowrap;
+}

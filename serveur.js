@@ -244,6 +244,48 @@ app.post('/api/vote', async (req, res) => {
     }
 });
 
+// ----------------------------------------------------------------------
+// NOUVELLE ROUTE : Enregistrer le score (points) par utilisateur
+// ----------------------------------------------------------------------
+app.post('/api/vote-score', async (req, res) => {
+    // Dans un vrai système, userId proviendrait d'une session ou d'un token
+    const { id, scoreChange } = req.body; // scoreChange peut être positif (ajout) ou négatif (retrait)
+    
+    if (!id || typeof scoreChange !== 'number' || scoreChange === 0) {
+        return res.status(400).json({ error: "Les paramètres 'id' et 'scoreChange' (différence de points) sont requis." });
+    }
+    
+    const result = findRevendicationById(id);
+
+    if (!result) {
+        return res.status(404).json({ error: `Revendication avec l'ID '${id}' non trouvée.` });
+    }
+
+    const { item, category } = result;
+    
+    // Initialiser le stockage des scores si nécessaire (simulé par un champ 'score' global)
+    // NOTE: En production, ceci serait stocké dans une base de données séparée par utilisateur.
+    // Ici, nous simulons l'impact du score dans un champ 'totalScore'
+    item.totalScore = (item.totalScore || 0) + scoreChange;
+    
+    // Le totalVotes (le simple compte oui/non/abstention) reste inchangé ici,
+    // mais le totalScore pourrait être utilisé pour la priorisation.
+    
+    try {
+        await saveRevendications(category); 
+        
+        // Retourne le nouveau score total de l'item pour rafraîchissement
+        res.json({ 
+            success: true, 
+            new_item_score: item.totalScore 
+        });
+        
+    } catch (error) {
+        console.error("Erreur lors de l'enregistrement du score:", error.message);
+        res.status(500).json({ error: "Erreur serveur lors de la sauvegarde du score." });
+    }
+});
+
 
 // ----------------------------------------------------------------------
 // ROUTE : PRÉSENTATION DÉTAILLÉE DE LA REVENDICATION (/api/detail) (inchangée)

@@ -6,25 +6,30 @@
     <title>Revendications « Indignons-Nous » - Plan de Développement</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
     <header>
         <h1>Plan de Développement : Réformes « Indignons-Nous »</h1>
+        <a href="#dashboard" class="header-nav-link nav-link">
+            📊 Tableau de Bord (Pilotage)
+        </a>
     </header>
 
     <div id="app-container">
         <nav id="sidebar-nav">
-            <h2>Table des Matières</h2>
+            <h2>Navigation</h2>
             <ul id="menu-list">
-            </ul>
+                <li class="nav-item category-title">
+                    <a href="#revendications" data-route="revendications" class="nav-link active">Revendications par Thème</a>
+                </li>
+                </ul>
         </nav>
 
         <main id="content-area">
-            <h2 id="section-title">Liste des Revendications</h2>
-            <p id="section-contact"></p>
-            
-            <section id="revendications-section">
-                </section>
+            <div id="dynamic-content">
+                <h2 id="section-title">Chargement...</h2>
+            </div>
         </main>
     </div>
     
@@ -33,11 +38,14 @@
             <span class="close-button">&times;</span>
             <h2 id="modal-title"></h2>
             <div id="modal-body">
-                </div>
+            </div>
         </div>
     </div>
     
     <script src="modal.js"></script>
-    <script src="script.js"></script>
+    <script src="dashboard.js"></script>
+    <script src="score-vote.js"></script>
+    <script src="revendications.js"></script> 
+    <script src="app.js"></script>           
 </body>
 </html>
