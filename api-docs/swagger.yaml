@@ -1,0 +1,66 @@
+openapi: 3.0.0
+info:
+  title: API d'Optimisation des Revendications
+  version: 1.0.0
+  description: API backend pour le projet "Indignons-Nous". Elle utilise le modèle Gemma2-9b-it (via Groq LPU) pour analyser et proposer des solutions législatives aux revendications.
+servers:
+  - url: http://localhost:3144
+    description: Serveur de développement local (Node/Express)
+paths:
+  /api/detail:
+    get:
+      tags:
+        - Analyse IA
+      summary: Génère une analyse détaillée (thèse) de la revendication.
+      description: Le modèle IA contextualise la revendication en expliquant le problème, les enjeux et l'urgence, sans proposer de solution.
+      parameters:
+        - in: query
+          name: text
+          schema:
+            type: string
+          required: true
+          description: Le texte exact de la revendication à analyser (issu de revendocations.json).
+      responses:
+        '200':
+          description: Analyse détaillée de la revendication au format HTML structuré.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+                    description: Contenu HTML développé par l'IA.
+        '400':
+          description: Paramètre manquant.
+        '500':
+          description: Erreur lors de l'appel à l'API Groq ou problème serveur.
+  
+  /api/optimise:
+    get:
+      tags:
+        - Optimisation IA
+      summary: Propose une solution législative concrète basée sur l'analyse précédente.
+      description: Le modèle IA propose un plan d'action (Loi, Réforme Constitutionnelle, etc.) en se basant sur le détail généré par /api/detail.
+      parameters:
+        - in: query
+          name: detail
+          schema:
+            type: string
+          required: true
+          description: Le contenu détaillé (thèse) généré par la route /api/detail.
+      responses:
+        '200':
+          description: Proposition de solution concrète au format HTML structuré.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  solution:
+                    type: string
+                    description: Contenu HTML de la proposition de solution.
+        '400':
+          description: Paramètre manquant.
+        '500':
+          description: Erreur lors de l'appel à l'API Groq ou problème serveur.
