@@ -1,0 +1,324 @@
+[
+  {
+    "revendication": "Protection des services publics",
+    "id": "egalite_sociale-0",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Nouvelle sécurité sociale réellement démocratique et gérée hors du budget de l'état comme conçu par le Conseil National de la Résistance de 1944",
+    "id": "egalite_sociale-1",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Encadrement des prix du loyer, de l’énergie et de l’alimentation",
+    "id": "egalite_sociale-2",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Gratuité des cantines, fournitures scolaires, crèches publiques (payée par les impôts)",
+    "id": "egalite_sociale-3",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Mise en place d'un service public de la petite enfance",
+    "id": "egalite_sociale-4",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Fin des subventions pour l’achat de voitures électriques et baisse des taxes sur le carburant",
+    "id": "egalite_sociale-5",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Accroître les subventions pour les véhicules électriques ou/et hybrides et Baisse des taxes sur le carburant",
+    "id": "egalite_sociale-6",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "La baisse des prix des carburants, en ponctionnant sur les revenus du capital des entreprises multinationales du secteur pétrolier.",
+    "id": "egalite_sociale-7",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Développer la production de carburants de synthèse (non d’origine agricole pour l’alimentation humaine) puis fournir à tarif subventionné (afin d’amorcer la pompe) et ceci dans l’optique d’un monopole étatique de la production et commercialisation des carburants",
+    "id": "egalite_sociale-8",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Encadrement des prix des transports régionaux et nationaux",
+    "id": "egalite_sociale-9",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Plan de soutien aux paysans (revenus, prix planchers…)",
+    "id": "egalite_sociale-10",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Sécurité Sociale de l’Alimentation",
+    "id": "egalite_sociale-11",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Sécurité Sociale de l’Alimentation, de l’énergie et de la connexion internet",
+    "id": "egalite_sociale-12",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Sécurité Sociale du Logement",
+    "id": "egalite_sociale-13",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Amendes proportionnelles aux revenus",
+    "id": "egalite_sociale-14",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Abrogation de la réforme RSA sur les 15h de travail gratuit",
+    "id": "egalite_sociale-15",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Abrogation des réformes du chômage depuis 2017",
+    "id": "egalite_sociale-16",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Revalorisation des aides et minimas sociaux (AAH, minimum vieillesse, RSA, APL…)",
+    "id": "egalite_sociale-17",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Augmentation/respect du quota de logement sociaux",
+    "id": "egalite_sociale-18",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Nationaliser les grandes entreprises et en faire des coopératives gérées par les salariés",
+    "id": "egalite_sociale-19",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Socialiser les grandes entreprises pour en faire un service public géré par les travailleurs hors capital hors état.",
+    "id": "egalite_sociale-20",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Nationalisation et gratuité des transports en communs (payé par les impôts)",
+    "id": "egalite_sociale-21",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Renationalisation des autoroutes",
+    "id": "egalite_sociale-22",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Suppression définitive des ZFE puis les rétablir lorsque l’électrification (totale ou partielle si modèle hybride) des véhicules sera la norme et sans surcoût social et écologique.",
+    "id": "egalite_sociale-23",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Faire un grand plan du transport pour améliorer la desserte du territoire et faire reculer les mode de transports carbonés (voiture, avion)",
+    "id": "egalite_sociale-24",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Fin des monopoles de la grande distribution en Martinique",
+    "id": "egalite_sociale-25",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Nationalisation des loyers",
+    "id": "egalite_sociale-26",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Encadrement à la baisse des loyers et plafonnement de la quittance à 20 % du revenu des ménages",
+    "id": "egalite_sociale-27",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Réquisition des logements vides “plus une seule personne à la rue”",
+    "id": "egalite_sociale-28",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Déploiement massif d'hébergements d’urgences",
+    "id": "egalite_sociale-29",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Interdiction d’accumuler les biens (loyers, médias…)",
+    "id": "egalite_sociale-30",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Prison ferme pour les patrons esclavagistes exploitant des immigrés clandestins et confiscation de l’entreprise.",
+    "id": "egalite_sociale-31",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "L’augmentation des pensions des retraité·e·s avec un niveau minimum de 2 000 euros brut",
+    "id": "egalite_sociale-32",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Remplacer l’aide à la rentrée scolaire par un achat groupé des fournitures scolaires par l'état afin d'équiper tous les enfants (selon une liste de matériel scolaire faite par les enseignants et mise à jour chaque année)",
+    "id": "egalite_sociale-33",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Taxer les déplacements internationaux fréquents en avion afin de financer des aides sur le carburant pour les citoyens vivant dans des milieux sans transport en communs efficaces.",
+    "id": "egalite_sociale-34",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Interdire les Jet privés, yacht et la possibilité d’investir dans du foncier et de laisser le logement vacant",
+    "id": "egalite_sociale-35",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Garantir la sécurité des logements locatifs qui ainsi ne perdront pas de valeur",
+    "id": "egalite_sociale-36",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Remboursement des produits d'hygiène de base, savon, protection menstruelles, gel hydroalcoolique, masque",
+    "id": "egalite_sociale-37",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Versement automatique des aides",
+    "id": "egalite_sociale-38",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Échange avec les administrations directement par mail et pas par plateforme.",
+    "id": "egalite_sociale-39",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Généralisation de l’I.A comme interlocuteur administratif.",
+    "id": "egalite_sociale-40",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Abrogation de la loi Kasbarian",
+    "id": "egalite_sociale-41",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Rénovations obligatoire pour les propriétaires de logements, aides pour les plus démunis",
+    "id": "egalite_sociale-42",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Investir les 211 millards par an d’aides aux entreprises dans les services public",
+    "id": "egalite_sociale-43",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Garantir le droit au logement par l’organisation de syndicats de locataires pour arriver à une grève des loyers.",
+    "id": "egalite_sociale-44",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Expropriation des multipropriétaires et gestion démocratique des logements",
+    "id": "egalite_sociale-45",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  }
+]

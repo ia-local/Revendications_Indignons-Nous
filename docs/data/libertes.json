@@ -1,0 +1,149 @@
+[
+  {
+    "revendication": "Respect du droit national et international (respect de l’état de droit) (DDHC)",
+    "id": "libertes-0",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Abrogation/encadrement des lois d’exception pour éviter la répression politique",
+    "id": "libertes-1",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Garantir le droit au pseudonymat sur les réseaux sociaux",
+    "id": "libertes-2",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Interdire la surveillance algorithmique de masse",
+    "id": "libertes-3",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Interdiction de tout financement étranger des cultes",
+    "id": "libertes-4",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Abolir toutes les tentatives d’entrave à la liberté d’expression notamment le DSA européen",
+    "id": "libertes-5",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Nouvelle limite de vitesse à 100km-h pour les campagnes.",
+    "id": "libertes-6",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Retour à 90 km/h.",
+    "id": "libertes-7",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Promotion véhicule électrique ou hybrides.",
+    "id": "libertes-8",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Simplifier et réduire les limites de vitesse sur route et autoroute pour limiter la pollution, les nuisances sonores et les accidents.",
+    "id": "libertes-9",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Favoriser les modes de transport alternatifs (vélo, bus, train) : Une seule vitesse qu'il pleuve ou non, pour les poids lourds comme pour les voitures, 30 en ville, 50 seulement sur les grands axes, 70 sur les départementales, 90 sur les rocades et autoroutes périurbaines et 110 sur les autres autoroutes",
+    "id": "libertes-10",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Fin des contrôles aux frontières, liberté de circulation peu importe la nationalité.",
+    "id": "libertes-11",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Fin des politiques de vaccination obligatoires de-facto sur vaccin expérimental.",
+    "id": "libertes-12",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Abrogation de la loi Darmanin",
+    "id": "libertes-13",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Régularisation de tous les sans papiers, avec titre de séjour pour 10 ans.",
+    "id": "libertes-14",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Réouverture des guichets dans les préfectures et les administrations",
+    "id": "libertes-15",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Liberté de ne pas utiliser le numérique",
+    "id": "libertes-16",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Bloquer la proposition du sénat d'interdire les transitions des mineurs",
+    "id": "libertes-17",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Une transition de genre libre, gratuite, sans psy ni juge",
+    "id": "libertes-18",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Formation gratuite au numérique pour les séniors",
+    "id": "libertes-19",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Libre droit d’usage de son corps sous condition de non-exploitation de la misère",
+    "id": "libertes-20",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  }
+]

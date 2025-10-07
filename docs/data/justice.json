@@ -1,0 +1,142 @@
+[
+  {
+    "revendication": "Indexation des amendes et sanctions financières sur le patrimoine du coupable.",
+    "id": "justice-0",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Amendes en pourcentage du revenu",
+    "id": "justice-1",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Dépénalisation des drogues douces.",
+    "id": "justice-2",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Refonte du Code pénal pour que les atteintes aux personnes soient davantage sanctionnées",
+    "id": "justice-3",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Renforcement de la miviludes",
+    "id": "justice-4",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "La fin du permis à point.",
+    "id": "justice-5",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Un moratoire sur l’intérêt de l'incarcération",
+    "id": "justice-6",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Favoriser les aménagements de peine pour les délits",
+    "id": "justice-7",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Aucun aménagement de peine pour les atteintes aux personnes",
+    "id": "justice-8",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Augmenter les moyens des agents pénitentiaire",
+    "id": "justice-9",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Développer de véritables structure d’intégration et d’apprentissage pour les personnes en perte de repères",
+    "id": "justice-10",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Informer l’ensemble de la population sur les causes sociales de la délinquance et agir dans ce sens",
+    "id": "justice-11",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Election et révocabilité des juges par les citoyens",
+    "id": "justice-12",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Abroger la loi Sapin 2 du 9 décembre 2016 qui créé les Convention Judiciaire d’Intérêt Public (CJIP) – un procédé qui permet aux riches de payer notre justice pour ne pas avoir de procès ( cf les 10 millions que Bernard Arnault a payé en décembre 2021 pour pouvoir continuer de cacher tranquillement ses magouilles et arrêter les poursuites)",
+    "id": "justice-13",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Fin des comparutions immédiates.",
+    "id": "justice-14",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Sortir du business prison et penser réellement à la réinsertion.",
+    "id": "justice-15",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Service public du droit",
+    "id": "justice-16",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Mise en place d’un tribunal exceptionnel pour juger les grands capitalistes qui nous exploitent et les politiciens à leurs services.",
+    "id": "justice-17",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Punition exemplaire pour ceux d’entre eux qui ont collaboré au génocide en Palestine",
+    "id": "justice-18",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Retirer le permis définitivement à toutes personnes “conduisant” avec son téléphone",
+    "id": "justice-19",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  }
+]

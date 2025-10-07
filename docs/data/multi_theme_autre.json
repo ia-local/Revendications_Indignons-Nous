@@ -1,0 +1,58 @@
+[
+  {
+    "revendication": "Retrait du budget Bayrou",
+    "id": "multi_theme_autre-0",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Destitution de Macron",
+    "id": "multi_theme_autre-1",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Révocatoire",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Abroger toutes les lois et réformes écocidaire et de casse sociale depuis la loi travail",
+    "id": "multi_theme_autre-2",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Instruire le procès de Macron pour haute trahison",
+    "id": "multi_theme_autre-3",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Révocatoire",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Démission de Bayrou",
+    "id": "multi_theme_autre-4",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Révocatoire",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Démission de Macron",
+    "id": "multi_theme_autre-5",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Révocatoire",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Enquête sur le patrimoine caché aux îles Jersey d’E.Macron",
+    "id": "multi_theme_autre-6",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Taxer toutes les personnes nées avant 1975 afin de financer l’ensemble des problèmes actuels qu’elles ont laissé croître et les inviter à arrêter de prendre l'ascendance",
+    "id": "multi_theme_autre-7",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "revendication": "Désarmement de la police municipale et formation aux questions antiracistes.",
+    "id": "police_armee-0",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Limitation de l’armement des policiers aux strictes nécessités de service d’urgence, comme en Grande Bretagne ou le gardien de la paix n’est pas armé",
+    "id": "police_armee-1",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Lutte contre toutes les discriminations : antisémitisme, islamophobie, homophobie, sexisme…",
+    "id": "police_armee-2",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Protection accrus des policiers et de leur familles menacées dans la vie civile (école par exemple)",
+    "id": "police_armee-3",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Désarmement des agents de sécurité dans les transports.",
+    "id": "police_armee-4",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Rétablissement de la police de proximité",
+    "id": "police_armee-5",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Fin de la politique du chiffre dans la police",
+    "id": "police_armee-6",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Réforme du maintien de l'ordre à la française, proscrire les armes proscrites par d'autres pays (lbd, lacrimo)",
+    "id": "police_armee-7",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Dissolution de l'IGPN remplacée par une instance indépendante sous contrôle citoyen",
+    "id": "police_armee-8",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Abrogation de la loi Cazeneuve refus d'obtempérer de 2017",
+    "id": "police_armee-9",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Prioriser la défense des citoyens contre les agressions",
+    "id": "police_armee-10",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Supprimer la police d’intervention type BAC, BraVM, CSI, etc… et augmenter considérablement les moyens de la police judiciaire.",
+    "id": "police_armee-11",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Formation d’unités d’intervention compétente",
+    "id": "police_armee-12",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "RIO réellement obligatoire",
+    "id": "police_armee-13",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Fin des affectations dans des régions inconnues",
+    "id": "police_armee-14",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Fin de la police de l'état pour une police du territoire avec un code déontologique sérieux.",
+    "id": "police_armee-15",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Stop au réarmement de la France",
+    "id": "police_armee-16",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Moderniser l’armée avec des robots/drones.",
+    "id": "police_armee-17",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Création de milice ouvrières gérées démocratiquement par les comités d’entreprise, avec mandat révocatoire et formation politique collective",
+    "id": "police_armee-18",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  }
+]

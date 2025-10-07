@@ -1,0 +1,198 @@
+[
+  {
+    "revendication": "Hausse des budgets (Santé, culture, éducation, sport, recherche)",
+    "id": "repartition_richesses-0",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Retour de l’ISF",
+    "id": "repartition_richesses-1",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Egalité salariale en entreprise",
+    "id": "repartition_richesses-2",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Pas d'impôt pour tous les moins de 30 ans.",
+    "id": "repartition_richesses-3",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Pas d’exonération d’impôt pour l’unique raison d’avoir moins de 30 ans",
+    "id": "repartition_richesses-4",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Taxer systématiquement tout versement de dividendes.",
+    "id": "repartition_richesses-5",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Taxe sur le patrimoine des ultras-riches/taxe Zucman",
+    "id": "repartition_richesses-6",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Recentrage des aides publiques aux entreprises sur les TPE/PME",
+    "id": "repartition_richesses-7",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Baisse des aides publiques aux grandes entreprises",
+    "id": "repartition_richesses-8",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Interdiction de versements de dividendes en cas d’utilisation d’aides publiques.",
+    "id": "repartition_richesses-9",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Revenir sur la réduction générale des cotisations sociales patronales",
+    "id": "repartition_richesses-10",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Audit de la dette publique et renationalisation de la Banque de France",
+    "id": "repartition_richesses-11",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Engager une lutte radicale contre l'évasion fiscale, publier les listes des criminels fiscaux.",
+    "id": "repartition_richesses-12",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Pénaliser l’optimisation fiscale",
+    "id": "repartition_richesses-13",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Abolir les héritages",
+    "id": "repartition_richesses-14",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Abolir l’héritage et la propriété pour tendre vers la justice et l’égalité",
+    "id": "repartition_richesses-15",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Limiter l'héritage à l’usufruit",
+    "id": "repartition_richesses-16",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Plafonner les héritages",
+    "id": "repartition_richesses-17",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Augmentation de la fiscalité sur les héritages de plusieurs millions.",
+    "id": "repartition_richesses-18",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Fiscalité proportionnelle à la fortune, mais sans mise en danger de la transmission du patrimoine",
+    "id": "repartition_richesses-19",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Abolir les droits de succession et légaliser l’héritage gratuit comme dans la plupart des pays",
+    "id": "repartition_richesses-20",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Nationalisation de toutes les entreprises stratégiques",
+    "id": "repartition_richesses-21",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Plafond d’enrichissement maximum",
+    "id": "repartition_richesses-22",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Augmentation des fonctionnaires de catégories B et C",
+    "id": "repartition_richesses-23",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Taxe sur les transactions financières",
+    "id": "repartition_richesses-24",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Catégorisation plus fines des tranches d'impôts",
+    "id": "repartition_richesses-25",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Abolition du salariat, répartition démocratique des tâches au détriment de ceux qui n'ont jamais travaillé, les grands capitalistes (à part pour organiser l’exploitation et tirer le plus de profit de celles et ceux qui travaillent pour eux)",
+    "id": "repartition_richesses-26",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Expropriation de l’intégralité du patrimoine au delà de 3 millions d’euros (redistribution équitable du butin accumulé par des siècles d’exploitation)",
+    "id": "repartition_richesses-27",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  }
+]
