@@ -5,7 +5,7 @@ const path = require('path');
 const Groq = require('groq-sdk');
 const fs = require('fs/promises');
 const swaggerUi = require('swagger-ui-express');
-const YAML = require('yamljs'); // Librairie pour charger le fichier YAML
+const YAML = require('yamljs');
 
 // --- Configuration du Serveur ---
 const app = express();
@@ -42,36 +42,49 @@ app.use(express.static(path.join(__dirname, 'docs')));
 // 2. GESTION DES DONNÉES ET REVENDICATIONS
 // ------------------------------------------------
 
-// Contient toutes les revendications, structurées par catégorie (ex: { democratie: [...], ecologie: [...] })
 let revendicationsData = {};
 const DATA_DIR = path.join(__dirname, 'docs', 'data'); 
+const CATEGORY_MAP = {
+    'demcratie': 'democratie', 
+    'internationnal': 'international', 
+};
+
+// Ordre numérique pour le tri de la priorité textuelle
+const PRIORITY_ORDER = { 'Élevé': 3, 'Moyen': 2, 'Faible': 1 };
+
 
 /**
  * Charge tous les fichiers JSON du répertoire DATA_DIR.
- * Chaque fichier JSON devient une catégorie de revendications.
  */
 async function loadAllRevendications() {
     try {
         const files = await fs.readdir(DATA_DIR);
-        revendicationsData = {}; // Réinitialiser avant le chargement
+        revendicationsData = {};
         
         for (const file of files) {
             if (file.endsWith('.json')) {
-                const category = path.parse(file).name; // 'democratie'
+                let categoryFileName = path.parse(file).name;
+                const categoryKey = CATEGORY_MAP[categoryFileName] || categoryFileName;
+                
                 const filePath = path.join(DATA_DIR, file);
                 const fileContent = await fs.readFile(filePath, 'utf-8');
                 
-                // Assurez-vous que chaque revendication a un ID unique pour le suivi
-                const data = JSON.parse(fileContent).map((item, index) => ({
-                    ...item,
-                    id: item.id || `${category}-${index}`, // Assure un ID unique
-                    category: category,
-                    votes: item.votes || { oui: 0, non: 0, abstention: 0 },
-                    ric_type: item.ric_type || 'Législatif', // Type de RIC par défaut
-                    priority: item.priority || 'Faible' // Priorité par défaut
-                }));
+                const data = JSON.parse(fileContent).map((item, index) => {
+                    // Calcul du total des votes ici pour garantir sa présence avant le tri
+                    const totalVotes = (item.votes?.oui || 0) + (item.votes?.non || 0) + (item.votes?.abstention || 0);
 
-                revendicationsData[category] = data;
+                    return {
+                        ...item,
+                        id: item.id || `${categoryKey}-${index}`, 
+                        category: categoryKey,
+                        votes: item.votes || { oui: 0, non: 0, abstention: 0 },
+                        totalVotes: totalVotes, // Ajout du champ totalVotes pour le tri
+                        ric_type: item.ric_type || 'Législatif', 
+                        priority: item.priority || 'Faible' 
+                    };
+                });
+
+                revendicationsData[categoryKey] = data;
             }
         }
         console.log(`✅ Revendications thématiques chargées : ${Object.keys(revendicationsData).join(', ')}.`);
@@ -83,23 +96,27 @@ async function loadAllRevendications() {
 
 /**
  * Sauvegarde les revendications d'une catégorie donnée sur le disque.
- * @param {string} category Le nom de la catégorie (ex: 'democratie').
  */
-async function saveRevendications(category) {
+async function saveRevendications(categoryKey) {
     try {
-        const filePath = path.join(DATA_DIR, `${category}.json`);
-        const dataToSave = JSON.stringify(revendicationsData[category], null, 2);
-        await fs.writeFile(filePath, dataToSave, 'utf-8');
-        console.log(`💾 Données de la catégorie '${category}' sauvegardées.`);
+        const categoryFileName = Object.keys(CATEGORY_MAP).find(key => CATEGORY_MAP[key] === categoryKey) || categoryKey;
+        const filePath = path.join(DATA_DIR, `${categoryFileName}.json`);
+        
+        // Retirer le champ 'totalVotes' avant la sauvegarde pour ne pas polluer les fichiers JSON sources
+        const dataToSave = revendicationsData[categoryKey].map(item => {
+            const { totalVotes, ...rest } = item;
+            return rest;
+        });
+
+        await fs.writeFile(filePath, JSON.stringify(dataToSave, null, 2), 'utf-8');
+        console.log(`💾 Données de la catégorie '${categoryKey}' sauvegardées.`);
     } catch (error) {
-        console.error(`❌ Erreur lors de la sauvegarde de la catégorie '${category}':`, error);
+        console.error(`❌ Erreur lors de la sauvegarde de la catégorie '${categoryKey}':`, error);
     }
 }
 
 /**
  * Cherche une revendication par ID à travers toutes les catégories.
- * @param {string} id L'ID unique de la revendication (ex: 'democratie-3').
- * @returns {object | null} La revendication trouvée et sa catégorie.
  */
 function findRevendicationById(id) {
     for (const category in revendicationsData) {
@@ -119,7 +136,6 @@ function findRevendicationById(id) {
 
 /**
  * Fonction pour gérer la logique de nouvelle tentative (retry) avec backoff exponentiel.
- * [La fonction retryApiCall est inchangée]
  */
 async function retryApiCall(apiCall, maxRetries = 3) {
     for (let i = 0; i < maxRetries; i++) {
@@ -137,16 +153,41 @@ async function retryApiCall(apiCall, maxRetries = 3) {
 
 
 // ----------------------------------------------------------------------
-// NOUVELLE ROUTE : Retourne toutes les revendications par catégorie
+// ROUTE : Retourne toutes les revendications par catégorie (TRIÉES)
 // ----------------------------------------------------------------------
 app.get('/api/data', async (req, res) => {
-    // Recharger les données pour s'assurer d'avoir les votes les plus récents
     await loadAllRevendications(); 
-    res.json(revendicationsData);
+    
+    const sortedData = {};
+
+    for (const categoryKey in revendicationsData) {
+        let items = [...revendicationsData[categoryKey]]; // Crée une copie pour le tri
+
+        items.sort((a, b) => {
+            // CRITÈRE 1 : Total des votes (le plus grand en premier)
+            if (b.totalVotes !== a.totalVotes) {
+                return b.totalVotes - a.totalVotes;
+            }
+
+            // CRITÈRE 2 : Priorité pré-établie (Élevé > Moyen > Faible)
+            const prioA = PRIORITY_ORDER[a.priority] || 0;
+            const prioB = PRIORITY_ORDER[b.priority] || 0;
+            if (prioB !== prioA) {
+                return prioB - prioA;
+            }
+
+            // CRITÈRE 3 : Ordre alphabétique du titre (pour la stabilité)
+            return a.revendication.localeCompare(b.revendication);
+        });
+
+        sortedData[categoryKey] = items;
+    }
+
+    res.json(sortedData);
 });
 
 // ----------------------------------------------------------------------
-// NOUVELLE ROUTE : Retourne les statistiques pour le Dashboard
+// ROUTE : Retourne les statistiques pour le Dashboard (inchangée)
 // ----------------------------------------------------------------------
 app.get('/api/stats', async (req, res) => {
     await loadAllRevendications(); 
@@ -174,10 +215,10 @@ app.get('/api/stats', async (req, res) => {
 
 
 // ----------------------------------------------------------------------
-// NOUVELLE ROUTE : Enregistrer un vote
+// ROUTE : Enregistrer un vote (mise à jour pour recalculer totalVotes après vote)
 // ----------------------------------------------------------------------
 app.post('/api/vote', async (req, res) => {
-    const { id, voteType } = req.body; // voteType doit être 'oui', 'non', ou 'abstention'
+    const { id, voteType } = req.body;
     
     if (!id || !voteType) {
         return res.status(400).json({ error: "Les paramètres 'id' et 'voteType' sont requis." });
@@ -191,11 +232,13 @@ app.post('/api/vote', async (req, res) => {
 
     const { item, category } = result;
 
-    // Mise à jour du vote
     if (item.votes[voteType] !== undefined) {
         item.votes[voteType]++;
-        await saveRevendications(category); // Sauvegarder la modification sur le disque
-        res.json({ success: true, new_votes: item.votes });
+        // Recalculer totalVotes immédiatement après le vote pour le retour et le tri
+        item.totalVotes = (item.votes.oui || 0) + (item.votes.non || 0) + (item.votes.abstention || 0);
+
+        await saveRevendications(category); 
+        res.json({ success: true, new_votes: item.votes, total_votes: item.totalVotes });
     } else {
         res.status(400).json({ error: "Type de vote invalide." });
     }
@@ -203,11 +246,10 @@ app.post('/api/vote', async (req, res) => {
 
 
 // ----------------------------------------------------------------------
-// ROUTE 1 : PRÉSENTATION DÉTAILLÉE DE LA REVENDICATION (/api/detail)
-// NOTE : Le front-end devra maintenant envoyer l'ID et la catégorie
+// ROUTE : PRÉSENTATION DÉTAILLÉE DE LA REVENDICATION (/api/detail) (inchangée)
 // ----------------------------------------------------------------------
 app.get('/api/detail', async (req, res) => {
-    const revendicationText = req.query.text; // Utilise toujours le texte car l'IA a besoin du contenu précis
+    const revendicationText = req.query.text; 
     
     if (!revendicationText) {
         return res.status(400).json({ error: "Le paramètre 'text' (revendication) est manquant." });
@@ -261,7 +303,7 @@ app.get('/api/detail', async (req, res) => {
 
 
 // ----------------------------------------------------------------------
-// ROUTE 2 : OPTIMISATION ET SOLUTIONS ENVISAGÉES (/api/optimise)
+// ROUTE : OPTIMISATION ET SOLUTIONS ENVISAGÉES (/api/optimise) (inchangée)
 // ----------------------------------------------------------------------
 app.get('/api/optimise', async (req, res) => {
     const detailText = req.query.detail; 

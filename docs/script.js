@@ -3,8 +3,8 @@
 // Configuration
 const REVENDICATIONS_PER_PAGE = 10;
 let currentPage = 1;
-let currentSectionIndex = 0;
-let data = {}; // Stockera les données de revendocations.json
+let currentCategoryKey = null; // Utilisé pour stocker la clé de la catégorie actuelle
+let allData = {}; // Stockera TOUTES les données thématiques chargées depuis /api/data
 
 // Sélecteurs DOM
 const menuList = document.getElementById('menu-list');
@@ -13,46 +13,59 @@ const sectionTitle = document.getElementById('section-title');
 const sectionContact = document.getElementById('section-contact');
 const revendicationsSection = document.getElementById('revendications-section');
 
+
 /**
- * Charge les données JSON et initialise l'interface.
+ * Charge les données depuis l'API /api/data et initialise l'interface.
  */
 async function initialize() {
     try {
-        const response = await fetch('revendications.json');
-        data = await response.json();
+        // 1. Charger toutes les données depuis la nouvelle API
+        const response = await fetch('/api/data');
+        if (!response.ok) {
+            throw new Error(`Erreur API: ${response.status}`);
+        }
+        allData = await response.json();
         
-        // Initialiser le menu
+        // 2. Initialiser le menu à partir des clés de catégorie
         renderMenu();
         
-        // Afficher la première section par défaut
-        if (data.sections && data.sections.length > 0) {
-            sectionContact.textContent = data.contact;
-            showSection(0);
+        // 3. Afficher la première catégorie par défaut
+        const firstCategory = Object.keys(allData)[0];
+        if (firstCategory) {
+            showSection(firstCategory);
         }
 
     } catch (error) {
         console.error('Erreur de chargement des données:', error);
-        contentArea.innerHTML = '<p style="color: red;">Erreur lors du chargement des revendications.</p>';
+        sectionTitle.textContent = "Erreur de connexion";
+        revendicationsSection.innerHTML = `<p class="error-message">Impossible de charger les revendications. Veuillez vérifier que le serveur.js est démarré et que la route /api/data est fonctionnelle. (${error.message})</p>`;
     }
 }
 
 /**
- * Génère les liens de navigation dans le menu latéral.
+ * Génère les liens de navigation dans le menu latéral à partir des clés de catégorie.
  */
 function renderMenu() {
     menuList.innerHTML = '';
-    data.sections.forEach((section, index) => {
+    const categories = Object.keys(allData);
+
+    categories.forEach((key, index) => {
         const li = document.createElement('li');
         const a = document.createElement('a');
-        a.href = `#section-${index}`;
-        a.textContent = section.titre;
-        a.dataset.index = index;
+        
+        // Formatage pour l'affichage (ex: 'egalite_sociale' -> 'Égalité Sociale')
+        const displayTitle = key.replace(/_/g, ' ')
+                                .replace(/\b\w/g, char => char.toUpperCase());
+
+        a.href = `#${key}`;
+        a.textContent = displayTitle;
+        a.dataset.category = key;
         
         a.addEventListener('click', (e) => {
             e.preventDefault();
-            const newIndex = parseInt(e.target.dataset.index);
-            if (newIndex !== currentSectionIndex) {
-                showSection(newIndex);
+            const newCategory = e.target.dataset.category;
+            if (newCategory !== currentCategoryKey) {
+                showSection(newCategory);
             }
         });
 
@@ -62,22 +75,24 @@ function renderMenu() {
 }
 
 /**
- * Affiche la section spécifiée par son index.
- * @param {number} index L'index de la section à afficher.
+ * Affiche la section spécifiée par sa clé de catégorie.
+ * @param {string} categoryKey La clé de la catégorie à afficher (ex: 'democratie').
  */
-function showSection(index) {
-    if (index < 0 || index >= data.sections.length) return;
+function showSection(categoryKey) {
+    if (!allData[categoryKey]) return;
 
-    currentSectionIndex = index;
+    currentCategoryKey = categoryKey;
     currentPage = 1;
 
-    // Met à jour le titre de la section
-    sectionTitle.textContent = data.sections[index].titre;
+    // Mise à jour du titre de la section
+    const displayTitle = categoryKey.replace(/_/g, ' ')
+                                    .replace(/\b\w/g, char => char.toUpperCase());
+    sectionTitle.textContent = displayTitle;
 
     // Met à jour l'état actif du menu
     document.querySelectorAll('#menu-list a').forEach(link => {
         link.classList.remove('active');
-        if (parseInt(link.dataset.index) === index) {
+        if (link.dataset.category === categoryKey) {
             link.classList.add('active');
         }
     });
@@ -87,38 +102,60 @@ function showSection(index) {
 }
 
 /**
- * Affiche les revendications pour la page actuelle de la section courante,
- * et les rend cliquables pour ouvrir la modale.
+ * Affiche les revendications sous forme de cartes avec indicateurs.
  */
 function renderRevendications() {
-    const section = data.sections[currentSectionIndex];
-    const totalRevendications = section.revendications.length;
+    const revendications = allData[currentCategoryKey] || [];
+    const totalRevendications = revendications.length;
     const totalPages = Math.ceil(totalRevendications / REVENDICATIONS_PER_PAGE);
 
     // Calculer les index de début et de fin pour la pagination
     const startIndex = (currentPage - 1) * REVENDICATIONS_PER_PAGE;
     const endIndex = Math.min(startIndex + REVENDICATIONS_PER_PAGE, totalRevendications);
-    const revendicationsToShow = section.revendications.slice(startIndex, endIndex);
+    const revendicationsToShow = revendications.slice(startIndex, endIndex);
     
-    // Générer la liste des revendications avec des liens (utilisant <ol> pour la numérotation)
-    let listHTML = `<ol id="revendications-list" start="${startIndex + 1}">`;
+    // Générer le contenu des cartes
+    let cardsHTML = `<div id="revendications-list">`;
     
-    revendicationsToShow.forEach((revendication, localIndex) => {
-        const globalIndex = startIndex + localIndex; // L'index dans la liste complète de la section
-        
+    revendicationsToShow.forEach((item) => {
         // Remplace les guillemets simples/doubles pour éviter de casser l'attribut data
-        const safeRevendication = revendication.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+        const safeRevendication = item.revendication.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+        
+        // Calculer la participation au vote (pour l'indicateur)
+        const totalVotes = item.votes.oui + item.votes.non + item.votes.abstention;
+        const participationText = totalVotes > 0 ? `${totalVotes} Votes` : 'Pas encore de vote';
+        
+        cardsHTML += `
+            <div class="revendication-card priority-${item.priority.toLowerCase()}">
+                
+                <div class="card-header">
+                    <span class="card-priority-tag">${item.priority}</span>
+                    <span class="card-ric-type">RIC: ${item.ric_type}</span>
+                </div>
 
-        listHTML += `
-            <li class="revendication-item">
-                <a href="#" class="open-modal-link" data-revendication-text="${safeRevendication}" data-global-index="${globalIndex}">
-                    ${revendication}
-                </a>
-            </li>`;
+                <div class="card-body">
+                    <p class="card-revendication-text">${item.revendication}</p>
+                    <p class="card-votes-summary">
+                        Oui: ${item.votes.oui} | Non: ${item.votes.non} | Abstention: ${item.votes.abstention} 
+                        <span class="vote-count">(${participationText})</span>
+                    </p>
+                </div>
+                
+                <div class="card-actions">
+                    <button class="action-btn open-modal-btn" 
+                            data-revendication-text="${safeRevendication}" 
+                            data-category-title="${sectionTitle.textContent}"
+                            data-item-id="${item.id}"
+                            >
+                        Analyser et Optimiser
+                    </button>
+                    </div>
+            </div>
+        `;
     });
-    listHTML += '</ol>';
+    cardsHTML += '</div>';
 
-    // Générer les contrôles de pagination
+    // Générer les contrôles de pagination (inchangés)
     const paginationHTML = `
         <div id="pagination-controls" aria-label="Contrôles de pagination pour la section">
             <button id="prev-btn" class="pagination-btn" ${currentPage === 1 ? 'disabled' : ''}>Précédent</button>
@@ -128,21 +165,21 @@ function renderRevendications() {
     `;
 
     // Insérer le contenu dans la section
-    revendicationsSection.innerHTML = listHTML + paginationHTML;
+    revendicationsSection.innerHTML = cardsHTML + paginationHTML;
 
-    // NOUVEAU: Ajouter les écouteurs d'événements pour les liens de revendication
-    document.querySelectorAll('.open-modal-link').forEach(link => {
-        link.addEventListener('click', (e) => {
+    // Ajouter les écouteurs d'événements pour les boutons d'analyse (modale)
+    document.querySelectorAll('.open-modal-btn').forEach(button => {
+        button.addEventListener('click', (e) => {
             e.preventDefault();
-            // Récupère le texte de la revendication (décodé)
-            const text = e.target.dataset.revendicationText; 
-            const sectionTitle = data.sections[currentSectionIndex].titre;
+            const text = button.dataset.revendicationText; 
+            const sectionTitleText = button.dataset.categoryTitle;
+            const itemId = button.dataset.itemId; // Nouvel ID unique
             
-            // Appel de la fonction définie dans modal.js
             if (typeof openModal === 'function') {
-                openModal(sectionTitle, text);
+                // openModal doit être mis à jour dans modal.js pour accepter l'ID
+                openModal(sectionTitleText, text, itemId); 
             } else {
-                console.error("La fonction openModal n'est pas définie. Assurez-vous que modal.js est bien chargé.");
+                console.error("La fonction openModal n'est pas définie.");
             }
         });
     });
@@ -152,7 +189,7 @@ function renderRevendications() {
         if (currentPage > 1) {
             currentPage--;
             renderRevendications();
-            contentArea.scrollIntoView({ behavior: 'smooth' }); // Remonter en haut de la page
+            contentArea.scrollIntoView({ behavior: 'smooth' });
         }
     });
 
@@ -160,7 +197,7 @@ function renderRevendications() {
         if (currentPage < totalPages) {
             currentPage++;
             renderRevendications();
-            contentArea.scrollIntoView({ behavior: 'smooth' }); // Remonter en haut de la page
+            contentArea.scrollIntoView({ behavior: 'smooth' });
         }
     });
 }

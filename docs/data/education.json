@@ -2,211 +2,361 @@
   {
     "revendication": "Sensibilisation au consentement pour lutter contre la pédophilie et l’inceste",
     "id": "education-0",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "education"
   },
   {
     "revendication": "Changement de politique sur l’orientation (arrêt des classements).",
     "id": "education-1",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "education"
   },
   {
     "revendication": "Fin des notes",
     "id": "education-2",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "education"
   },
   {
     "revendication": "Réforme de l’éducation (cours intellectuels le matin, ludiques l’après-midi, plus de cours après 16h).",
     "id": "education-3",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "education"
   },
   {
     "revendication": "Entraide et co-responsabilisation à la place de sélection et compétition",
     "id": "education-4",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 6,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "education"
   },
   {
     "revendication": "Sécurité Sociale de l’Éducation",
     "id": "education-5",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "education"
   },
   {
     "revendication": "Retour aux apprentissages fondamentaux (lecture, écriture, math)",
     "id": "education-6",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "education"
   },
   {
     "revendication": "Effectivité des cours d’éducation à la vie relationnelle et sexuelle obligatoire et en faire une matière importante.",
     "id": "education-7",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "education"
   },
   {
     "revendication": "Fin de l’école privée, interdiction de faire payer pour l’éducation",
     "id": "education-8",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "education"
   },
   {
     "revendication": "Fin de l’éducation confessionnelle à l’école, y compris en Alsace-Lorraine.",
     "id": "education-9",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "education"
   },
   {
     "revendication": "Interdiction des écoles religieuse intégristes (quel que soit la religion).",
     "id": "education-10",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "education"
   },
   {
     "revendication": "Augmentation du budget de l’éducation nationale pour une revalorisation des enseignants",
     "id": "education-11",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "education"
   },
   {
     "revendication": "Revenir aux fondamentaux de l’école, apprendre à lire, à écrire et à compter",
     "id": "education-12",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "education"
   },
   {
     "revendication": "Augmentation de la rémunération de l’ensemble du personnel pédagogique et technique de l’éducation nationale (cantinière, pions, profs, technicien, AESH, etc…) ainsi que la mise à disposition de véritables moyens pour faire face au déficit de savoir.",
     "id": "education-13",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 1
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "education"
   },
   {
     "revendication": "Démantèlement du corps des inspecteurs, évaluation des pratiques pédagogiques des enseignants par les pairs",
     "id": "education-14",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "education"
   },
   {
     "revendication": "Sanctions et contrôles stricts du personnel défaillant afin d’assurer une entière sécurité pour le public mineur",
     "id": "education-15",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "education"
   },
   {
     "revendication": "Maintien des pédagogies alternatives hors contrat",
     "id": "education-16",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "education"
   },
   {
     "revendication": "Augmentation des taux d’encadrement dans le scolaire, l’extra scolaire et le périscolaire",
     "id": "education-17",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "education"
   },
   {
     "revendication": "Déploiement des projets d’écoles dehors",
     "id": "education-18",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "education"
   },
   {
     "revendication": "Apprentissage des fondamentaux de la cuisine, du bricolage et de la couture",
     "id": "education-19",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "education"
   },
   {
     "revendication": "Gratuité des fournitures scolaires",
     "id": "education-20",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "education"
   },
   {
     "revendication": "Gratuité des cantines",
     "id": "education-21",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "education"
   },
   {
     "revendication": "Plus de salles de classe pour les collégiens",
     "id": "education-22",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "education"
   },
   {
     "revendication": "Fin de Parcours Sup",
     "id": "education-23",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Abrogatoire",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "education"
   },
   {
     "revendication": "Ouverture de places en fac",
     "id": "education-24",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "education"
   },
   {
     "revendication": "Salaire étudiant",
     "id": "education-25",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "education"
   },
   {
     "revendication": "Cantines bio et locales, avec une alternative végé pour les différentes convictions et confessions",
     "id": "education-26",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "education"
   },
   {
     "revendication": "Plus petits effectifs dans les classes (maximum 20)",
     "id": "education-27",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "education"
   },
   {
     "revendication": "Apprentissage des fondamentaux de la cuisine, du bricolage, de la couture* et de la mécanique",
     "id": "education-28",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "education"
   },
   {
     "revendication": "Prévoir un budget pour permettre d'organiser des sorties bi-hebdomadaires (+ ou -) pour apprendre à connaître son environnement naturel et social (type accompagné de naturalistes, pour découvrir les biomes, faire des randonnées, participer à des projets communautaires etc.)",
     "id": "education-29",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "education"
   }
 ]

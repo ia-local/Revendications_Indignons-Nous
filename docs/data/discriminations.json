@@ -2,162 +2,277 @@
   {
     "revendication": "Plan de lutte contre les discriminations (raciales, genres).",
     "id": "discriminations-0",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 1,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "discriminations"
   },
   {
     "revendication": "Renforcer la protection animale.",
     "id": "discriminations-1",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "discriminations"
   },
   {
     "revendication": "Plan de lutte contre le harcèlement",
     "id": "discriminations-2",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 1,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "discriminations"
   },
   {
     "revendication": "Fin des politiques EDI (dites Equité, Diversité et Inclusion) discriminantes dans les entreprises publiques",
     "id": "discriminations-3",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "discriminations"
   },
   {
     "revendication": "Protections accrues des juifs de France.",
     "id": "discriminations-4",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "discriminations"
   },
   {
     "revendication": "Assurer une véritable laïcité et donc protéger toutes minorités religieuses en gardant à l’esprit que la majorité de la population est athée (60%)",
     "id": "discriminations-5",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "discriminations"
   },
   {
     "revendication": "Abrogation des lois islamophobes (contre le voile à l’école, loi séparatisme, loi sur l’entrisme).",
     "id": "discriminations-6",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Abrogatoire",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "discriminations"
   },
   {
     "revendication": "Analyse sociologique quantitative des auteurs d’agressions de femmes et de LGBTQ+ (et d’hommes)",
     "id": "discriminations-7",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "discriminations"
   },
   {
     "revendication": "Re financement à grande échelle des initiatives associatives locales luttant contre les discriminations",
     "id": "discriminations-8",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "discriminations"
   },
   {
     "revendication": "Investissement dans des équipements sportifs, culturels etc, dans les quartiers défavorisés",
     "id": "discriminations-9",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "discriminations"
   },
   {
     "revendication": "Financer les campagnes.",
     "id": "discriminations-10",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "discriminations"
   },
   {
     "revendication": "Dissolution des groupes violents d'extrême droite",
     "id": "discriminations-11",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "discriminations"
   },
   {
     "revendication": "Protection de la vie de nos anciens et des personnes atteintes de handicap par abrogation de la loi sur l’euthanasie et suicide assisté.",
     "id": "discriminations-12",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Abrogatoire",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "discriminations"
   },
   {
     "revendication": "Proposer option cryogénisation à tarif sécu pour tous afin que cesse la discrimination biologique arbitraire envers notre espèce malheureusement obsolescente vs certains animaux et plantes qui ne décèdent que suite à accident ou à prédation humaine.",
     "id": "discriminations-13",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "discriminations"
   },
   {
     "revendication": "Mettre en place un véritable plan national d’accès aux infrastructures pour tous les handicapés.",
     "id": "discriminations-14",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "discriminations"
   },
   {
     "revendication": "Interdiction des mutilation et traitement non consenti sur les intersexe",
     "id": "discriminations-15",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "discriminations"
   },
   {
     "revendication": "La transcription dans le droit français de la Convention ONU des droits des personnes handicapées et sa mise en œuvre effective",
     "id": "discriminations-16",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "discriminations"
   },
   {
     "revendication": "Un droit à la vie autonome des personnes handicapées entièrement financé par la solidarité nationale, des budgets d'assistance personnelle et des services pour la vie autonome, répondant aux besoins et aspirations des personnes handicapées, avec un échéancier de désinstitutionnalisation et un moratoire sur la création de places en institution",
     "id": "discriminations-17",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "discriminations"
   },
   {
     "revendication": "La fin du report des obligations de mise en accessibilité (physique, communicationnelle et numérique) et l'imposition de sanctions significatives en cas de non-respect de l'accessibilité universelle.",
     "id": "discriminations-18",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "discriminations"
   },
   {
     "revendication": "Abrogation de l'article 64 de la loi ÉLAN et un programme national de construction de logements accessibles et adaptables (construction de 100 % de logements accessibles et adaptables, assortis d'une obligation d'installation d'ascenseur dès le premier niveau)",
     "id": "discriminations-19",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Abrogatoire",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "discriminations"
   },
   {
     "revendication": "Un droit inconditionnel à la scolarité de tous les enfants et à la formation de tous les adultes, avec tous les moyens humains, matériels, pédagogiques et organisationnels nécessaires, et des locaux permettant l'organisation du suivi médico-social en son sein.",
     "id": "discriminations-20",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "discriminations"
   },
   {
     "revendication": "Abrogation de l'article 1er de la loi de 2005 avec la fin de la confusion entre associations représentatives des personnes handicapées et associations gestionnaires d'établissements et services, dont le conflit d'intérêts est dénoncé par l'ONU",
     "id": "discriminations-21",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Abrogatoire",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "discriminations"
   },
   {
     "revendication": "Représentation réelle et effective des personnes handicapées, avec des conseils départementaux consultatifs de l'autonomie et un Conseil national des personnes handicapées ayant voix délibérative et dont les membres sont élus localement au sein des MDPH, parmi les représentants de collectifs militants non gestionnaires.",
     "id": "discriminations-22",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "discriminations"
   }
 ]

@@ -1,10 +1,21 @@
 /* modal.css */
 
 /* Variables de couleurs (réutilisation des couleurs de style.css) */
+/* modal.css (AJOUT DE STYLES POUR LE VOTE) */
+
+/* Variables de couleurs */
 :root {
-    --color-primary: #0056b3; /* Bleu foncé */
-    --color-secondary: #007bff; /* Bleu vif */
+    --color-primary: #0056b3; 
+    --color-secondary: #007bff; 
+    --color-success: #28a745; /* Vert pour OUI */
+    --color-danger: #dc3545; /* Rouge pour NON */
+    --color-warning: #ffc107; /* Jaune pour Abstention */
+    --color-text: #333;
 }
+
+/* ------------------------------------- */
+/* Styles pour le Contenu de la MODAL.   */
+/* ------------------------------------- */
 
 /* Le conteneur modal principal, initialement caché */
 .modal {
@@ -102,4 +113,117 @@
     border: 1px dashed #ccc;
     border-radius: 6px;
     margin-bottom: 20px;
+}
+
+/* ------------------------------------- */
+/* NOUVEAUX STYLES : CONTRÔLES DE VOTE */
+/* ------------------------------------- */
+
+#vote-controls-container {
+    padding: 15px 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+}
+
+.ric-status {
+    color: var(--color-primary);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+.ric-status strong {
+    color: var(--color-danger);
+    background-color: #ffffe0; /* Surlignage pour le type RIC */
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+.vote-summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.total-votes-count {
+    font-weight: bold;
+    color: var(--color-secondary);
+}
+
+.vote-details {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 0.95em;
+    color: var(--color-text);
+}
+
+/* Barre de progression des votes */
+.vote-progress-bar {
+    display: flex;
+    width: 100%;
+    height: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.progress-segment {
+    height: 100%;
+    transition: width 0.5s ease-out;
+}
+
+/* Boutons de vote */
+.vote-actions {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.vote-btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.1s, opacity 0.1s;
+}
+
+.vote-btn:hover {
+    transform: translateY(-1px);
+}
+
+.vote-oui {
+    background-color: var(--color-success);
+    color: white;
+}
+
+.vote-non {
+    background-color: var(--color-danger);
+    color: white;
+}
+
+.vote-abstention {
+    background-color: var(--color-warning);
+    color: var(--color-text);
+}
+
+.info-message {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.error-message {
+    color: var(--color-danger);
+    font-weight: bold;
 }

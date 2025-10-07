@@ -1,107 +1,182 @@
 [
   {
-    "revendication": "Considérant les arts et la culture comme des biens communs relevant d'une exception culturelle, porter les budgets du service public des arts et de la culture à hauteur de 2% et garantir le financement local de la culture dans les collectivités en privilégiant les circuits courts de production",
+    "revendication": "la culture comme des biens communs relevant d'une exception culturelle, porter les budgets du service public",
     "id": "culture-0",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 1,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "culture"
   },
   {
     "revendication": "Réinstauration d’une taxe pour financer l’audiovisuel public indépendant.",
     "id": "culture-1",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "culture"
   },
   {
     "revendication": "Obligation de pluralisme politique dans les médias quel que soit le propriétaire",
     "id": "culture-2",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "culture"
   },
   {
     "revendication": "Fin de la nomination par l’exécutif des dirigeants des médias publics (Élection)",
     "id": "culture-3",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "culture"
   },
   {
     "revendication": "Interdiction de contrôle des médias par des milliardaires.",
     "id": "culture-4",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "culture"
   },
   {
     "revendication": "Indépendance des médias (via l’élection du CA par les journalistes et non les actionnaires par exemple)",
     "id": "culture-5",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "culture"
   },
   {
     "revendication": "Mise en place d'un outil bicéphale (CESE et commission mixte citoyens-ONG-syndicats de journalistes par exemple) ayant autorité et pouvoir coercitif pour limiter drastiquement la propriété et l'intervention des personnes physiques ou morales dans les médias ainsi que d’auditer leur financement.",
     "id": "culture-6",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "culture"
   },
   {
     "revendication": "Sécurité Sociale de la Culture",
     "id": "culture-7",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "culture"
   },
   {
     "revendication": "Simplifier les processus de restitution d’œuvres acquises par le biais de la colonisation.",
     "id": "culture-8",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "culture"
   },
   {
     "revendication": "Soutien à la presse indépendante",
     "id": "culture-9",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "culture"
   },
   {
     "revendication": "Retour de la redevance publique pour des médias publics indépendants du pouvoir.",
     "id": "culture-10",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "culture"
   },
   {
     "revendication": "Sauver la tapisserie de Bayeux qui ne doit pas être transportée (https://www.change.org/p/non-au-prêt-de-la-tapisserie-de-bayeux)",
     "id": "culture-11",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "culture"
   },
   {
     "revendication": "Rendre tous les musées gratuits",
     "id": "culture-12",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "culture"
   },
   {
     "revendication": "Exproprier les collections privées pour les placer sous contrôle public.",
     "id": "culture-13",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "culture"
   },
   {
     "revendication": "Procurer à chaque habitant de France un budget annuel lui permettant exclusivement de financer une licence sportive",
     "id": "culture-14",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "culture"
   }
 ]

@@ -2,246 +2,421 @@
   {
     "revendication": "Abolition (à terme) du salariat.",
     "id": "travail-0",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "travail"
   },
   {
     "revendication": "Obtention d’un haut revenu universel (sans perte droits sociaux) afin de pallier la progressive disparition du travail à cause de la robotisation/ I.A . Taxe sur la plus-value issue du travail des robots pour financer le revenu universel.",
     "id": "travail-1",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Retraite à 60 ans pour ceux qui seront encore vivants",
     "id": "travail-2",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "travail"
   },
   {
     "revendication": "Augmentation du SMIC/des salaires/des retraites",
     "id": "travail-3",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "travail"
   },
   {
     "revendication": "Augmenter de 20 % les bas salaires et les minima sociaux",
     "id": "travail-4",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "travail"
   },
   {
     "revendication": "Droit inaliénable pour les salariés de se grouper en syndicats pour se défendre",
     "id": "travail-5",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Ré-indexation des salaires sur l’inflation et des pensions sur les salaires (cohérence)",
     "id": "travail-6",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "travail"
   },
   {
     "revendication": "La reconnaissance des diplômes dès l’embauche et le paiement de la qualification",
     "id": "travail-7",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Réduction du temps de travail par semaine",
     "id": "travail-8",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Suppression des ESAT et création d’une vraie structure accompagnant les personnes en situation de handicap vers une réinsertion professionnelle encadrée et protégée par le Code du Travail",
     "id": "travail-9",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Salaire à vie à partir de 18 ans jusqu'à la mort.",
     "id": "travail-10",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "travail"
   },
   {
     "revendication": "Limiter à 2 le nombre de niveaux de sous-traitance",
     "id": "travail-11",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Revaloriser le travail au mérite et baisser l’assistanat des milliards donnés au patronat au strict nécessaire.",
     "id": "travail-12",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Exclure des marchés publics les entreprises qui ont des holdings dans les paradis fiscaux.",
     "id": "travail-13",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "travail"
   },
   {
     "revendication": "Instauration de la Démocratie dans les entreprises",
     "id": "travail-14",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Egalité professionnelle et salariale entre les femmes et les hommes",
     "id": "travail-15",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "travail"
   },
   {
     "revendication": "Copropriété d'usage des outils de production et co-décision de la production",
     "id": "travail-16",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "travail"
   },
   {
     "revendication": "Retraite à 55 ans pour les métiers pénibles",
     "id": "travail-17",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Une allocation d’autonomie pour les étudiants et les jeunes en recherche d’un premier emploi et une augmentation des salaires pour les apprentis",
     "id": "travail-18",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Rétablir les franchises de TVA des travailleurs indépendants, associations, collectivités",
     "id": "travail-19",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "travail"
   },
   {
     "revendication": "Un moratoire sur les licenciements (intégrant la loi Florange)",
     "id": "travail-20",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "travail"
   },
   {
     "revendication": "Convertir les aides publiques en prise de participation",
     "id": "travail-21",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "travail"
   },
   {
     "revendication": "L’arrêt des exonérations de cotisations sociales et fiscales et le conditionnement des aides publiques aux entreprises",
     "id": "travail-22",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Un revenu de remplacement pour tous les privés d’emploi au minimum au niveau du Smic",
     "id": "travail-23",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "travail"
   },
   {
     "revendication": "Des conseiller Pôle Emploi spécialisés par branches professionnelles",
     "id": "travail-24",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "travail"
   },
   {
     "revendication": "Echanges Pole Emploi directement par mail avec son conseiller",
     "id": "travail-25",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "travail"
   },
   {
     "revendication": "Maximum de température travaillable établi par branches et par des médecins (Anses)",
     "id": "travail-26",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Installation de moyens passifs (végétalisation) ou actifs (climatiseur efficient) pour supporter la chaleur et réduire consommation énergie",
     "id": "travail-27",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 1,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Différence de salaires maximum dans les entreprises. X fois le plus petit salaire",
     "id": "travail-28",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Partage équitable de la plus value entre salariés et actionnaires",
     "id": "travail-29",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Interdiction de la propriété privée des moyens de production de nécessité sociale - interdiction des licenciements",
     "id": "travail-30",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "travail"
   },
   {
     "revendication": "Gestion démocratique du temps de travail et des tâches au sein de chaque entreprise",
     "id": "travail-31",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "travail"
   },
   {
     "revendication": "Des congés de transition",
     "id": "travail-32",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "travail"
   },
   {
     "revendication": "Payer nos chercheurs décemment pour éviter la fuite de cerveaux.",
     "id": "travail-33",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "travail"
   },
   {
     "revendication": "Ajouter 3 jours fériés supplémentaires au calendrier pour célébrer l’athéisme, l’apostasie et le droit au blasphème",
     "id": "travail-34",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "travail"
   }
 ]

@@ -2,197 +2,337 @@
   {
     "revendication": "Référendum sur la sortie de l’U.E",
     "id": "international-0",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "international"
   },
   {
     "revendication": "Rétablissement de la supériorité du droit français sur le droit européen et les traités",
     "id": "international-1",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Constituant",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "international"
   },
   {
     "revendication": "Enlever le drapeaux de L’UE des bâtiments publics (Mairie, écoles, préfectures, ministères)",
     "id": "international-2",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "international"
   },
   {
     "revendication": "Sortie de l’OTAN",
     "id": "international-3",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "international"
   },
   {
     "revendication": "Répudiation du Traité d’Aix-la-Chapelle",
     "id": "international-4",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Abrogatoire",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "international"
   },
   {
     "revendication": "Protectionnisme social et environnemental",
     "id": "international-5",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "international"
   },
   {
     "revendication": "Gel du budget de la défense",
     "id": "international-6",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "international"
   },
   {
     "revendication": "Arrêt des livraisons d'armes à Israël",
     "id": "international-7",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 1,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "international"
   },
   {
     "revendication": "Sanctions concrètes contre Israël",
     "id": "international-8",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "international"
   },
   {
     "revendication": "Sanctions contre Israël a minima équivalents aux sanctions contre la Russie.",
     "id": "international-9",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "international"
   },
   {
     "revendication": "Reconnaissance de la Palestine",
     "id": "international-10",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "international"
   },
   {
     "revendication": "Mettre en place une taxation européenne spécifique sur les GAFAM et les multinationales du numérique",
     "id": "international-11",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "international"
   },
   {
     "revendication": "Mettre en place une taxation française spécifique sur les GAFAM et les multinationales du numérique (il ne faut pas donner à l’UE la possibilité de collecter des impôts)",
     "id": "international-12",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "international"
   },
   {
     "revendication": "Offrir la possibilité d’indépendance à la Kanaky",
     "id": "international-13",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "international"
   },
   {
     "revendication": "Ordonner une zone d’exclusion aérienne sur Gaza",
     "id": "international-14",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "international"
   },
   {
     "revendication": "Ordonner la mise en place d’un corridor humanitaire au Soudan",
     "id": "international-15",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "international"
   },
   {
     "revendication": "Porter la dynamique du désarmement nucléaire et du défi climatique",
     "id": "international-16",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "international"
   },
   {
     "revendication": "S’opposer à toutes politiques coloniales et à l’hégémonie États-Unienne",
     "id": "international-17",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "international"
   },
   {
     "revendication": "Rejoindre comme observateur les BRICS",
     "id": "international-18",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "international"
   },
   {
     "revendication": "Rejoindre intégralement les BRICS+",
     "id": "international-19",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "international"
   },
   {
     "revendication": "Soutien à l’ONU, à la CIJ et à la CPJ",
     "id": "international-20",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "international"
   },
   {
     "revendication": "Accompagnement à la fin du franc CFA",
     "id": "international-21",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "international"
   },
   {
     "revendication": "Fin de la vente d’arme à des régimes autoritaires",
     "id": "international-22",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "international"
   },
   {
     "revendication": "Forçage du blocus de Gaza pour laisser passer l’aide humanitaire par les eaux internationales",
     "id": "international-23",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "international"
   },
   {
     "revendication": "Appuyer logistiquement et matériellement les peuples en lutte partout où ils se révoltent contre leurs Etats policiers et corrompus, pour leur autodétermination et contre la colonisation",
     "id": "international-24",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "international"
   },
   {
     "revendication": "Éjection (pour refus d’entrave aux guerres) de l’ensemble des députés puisqu’ils n’utilisèrent pas l’article 35 alinéa 3 pour entraver la cobelligérance française en Ukraine contre la Russie ainsi qu’au Moyen-Orient et au Levant victimes d’Israël",
     "id": "international-25",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Révocatoire",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "international"
   },
   {
     "revendication": "Conquérir le cosmos pour le bien de l’humanité.",
     "id": "international-26",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "international"
   },
   {
     "revendication": "Désarmer l’armée professionnelle et organiser les travailleurs en milices démocratiquement gérées",
     "id": "international-27",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "international"
   }
 ]

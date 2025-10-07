@@ -1,12 +1,17 @@
-/* style.css */
+/* style.css (MISE À JOUR) */
 
 /* Règles de base et Web Sémantique */
 :root {
-    --color-primary: #0056b3; /* Bleu foncé pour les éléments principaux */
-    --color-secondary: #007bff; /* Bleu vif pour les liens et boutons */
+    --color-primary: #021b36; /* Bleu foncé pour les éléments principaux */
+    --color-secondary: #032a54; /* Bleu vif pour les liens et boutons */
     --color-background: #f4f4f9; /* Arrière-plan léger */
     --color-text: #333; /* Texte foncé */
     --sidebar-width: 250px;
+
+    /* NOUVELLES COULEURS DE PRIORITÉ */
+    --priority-eleve: #dc3545;  /* Rouge vif/Danger */
+    --priority-moyen: #ffc107;  /* Jaune/Avertissement */
+    --priority-faible: #28a745; /* Vert/Succès */
 }
 
 body {
@@ -18,7 +23,7 @@ body {
 }
 
 header {
-    background-color: var(--color-primary);
+    background-color: #021b36;;
     color: white;
     padding: 20px;
     text-align: center;
@@ -31,14 +36,14 @@ header {
     margin: 20px auto;
 }
 
-/* Menu de navigation latérale (Sidebar) */
+/* Menu de navigation latérale (Sidebar) - INCHANGÉ */
 #sidebar-nav {
     width: var(--sidebar-width);
     min-width: var(--sidebar-width);
     background-color: white;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    position: sticky; /* Menu collant pour un accès facile */
+    position: sticky; 
     top: 20px;
     height: fit-content;
     max-height: calc(100vh - 40px);
@@ -72,11 +77,11 @@ header {
 
 #menu-list a:hover,
 #menu-list a.active {
-    background-color: var(--color-secondary);
+    background-color: #021b36;;
     color: white;
 }
 
-/* Contenu principal */
+/* Contenu principal - INCHANGÉ */
 #content-area {
     flex-grow: 1;
     padding: 0 20px;
@@ -88,21 +93,121 @@ header {
 }
 
 #revendications-section {
-    background-color: white;
-    padding: 20px;
+    background-color: transparent; /* Retire le fond blanc du conteneur parent */
+    padding: 0;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    box-shadow: none;
 }
+
+/* ------------------------------------- */
+/* NOUVEAUX STYLES : CARTE DE REVENDICATION */
+/* ------------------------------------- */
 
 #revendications-list {
-    list-style: decimal;
-    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espace entre chaque carte */
+    padding: 0;
 }
 
-#revendications-list li {
-    margin-bottom: 15px;
-    line-height: 1.6;
-    font-size: 1.05em;
+.revendication-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-left: 8px solid var(--color-secondary); /* Bordure par défaut */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.revendication-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles spécifiques à la priorité (Bordure Gauche) */
+.priority-eleve {
+    border-left-color: var(--priority-eleve);
+}
+.priority-moyen {
+    border-left-color: var(--priority-moyen);
+}
+.priority-faible {
+    border-left-color: var(--priority-faible);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.card-priority-tag {
+    font-weight: bold;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+}
+
+/* Couleur du tag basée sur la classe parente */
+.priority-eleve .card-priority-tag {
+    background-color: var(--priority-eleve);
+}
+.priority-moyen .card-priority-tag {
+    background-color: var(--priority-moyen);
+    color: var(--color-text);
+}
+.priority-faible .card-priority-tag {
+    background-color: var(--priority-faible);
+}
+
+.card-ric-type {
+    font-size: 0.9em;
+    color: var(--color-primary);
+    font-style: italic;
+}
+
+.card-revendication-text {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer; /* Indique que le texte est cliquable */
+}
+
+.card-votes-summary {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0;
+}
+
+.vote-count {
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.card-actions {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    text-align: right;
+}
+
+.action-btn {
+    padding: 8px 15px;
+    background-color: #03284f;;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
+}
+
+.action-btn:hover {
+    background-color: var(--color-primary);
 }
 
 /* Pagination */

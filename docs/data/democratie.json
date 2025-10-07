@@ -1,0 +1,247 @@
+[
+  {
+    "revendication": "Introduire dans la Constitution qu’aucune guerre ne doit être entreprise sans l’aval du peuple.",
+    "id": "democratie-0",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Constituant",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Convocation d’une assemblée constituante tirée au sort",
+    "id": "democratie-1",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Constituant",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Mise en place d'assemblées permanentes tirées au sort à tous les niveaux de la république (communes, intercommunalités, département, région et nation)",
+    "id": "democratie-2",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Lutte contre la corruption/lobbyisme/pantouflage",
+    "id": "democratie-3",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Durcir radicalement les sanctions et la repression des criminels à col blanc (Sarkozy, Fillon, Cahuzac, Le Pen, Arnault, Lagardère…)",
+    "id": "democratie-4",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Application proportionnelle des peines de justices (Sarko, Chirac, Lepen, etc..)",
+    "id": "democratie-5",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Inéligibilité pour appel",
+    "id": "democratie-6",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Baisse des salaires des élus, frais de mandat public",
+    "id": "democratie-7",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Abolition des privilèges accordés aux anciens ministres et présidents (chauffeurs, secrétaires etc) et évaluation du poids de ces dépenses",
+    "id": "democratie-8",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Abrogatoire",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Pas d’interdiction cumul mandat sous réserve d’incompatibilité planning et de non-conflit d'intérêt.",
+    "id": "democratie-9",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Obligation de nommer le premier ministre issu du groupe (ou de l’accord de coalition législative) arrivé en tête aux législatives (dans le cadre de la Vème République)",
+    "id": "democratie-10",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Constituant",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Reconnaissance du vote blanc",
+    "id": "democratie-11",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Dépolitisation du conseil constitutionnel (dorénavant composé à 50/50 magistrats - citoyens)",
+    "id": "democratie-12",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Constituant",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Redécoupage des circonscriptions en fonction du nombre d’électeurs et non pas en fonction du nombre d’habitants comme présentement.",
+    "id": "democratie-13",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Décentraliser les pouvoirs politiques (exécutif, législatif et régalien) , augmenter le pouvoir et l’autonomie des départements et communes",
+    "id": "democratie-14",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Constituant",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Comités de quartier décisionnaires",
+    "id": "democratie-15",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "RIC (version CARL, ETM)",
+    "id": "democratie-16",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Constituant",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Encadrement des élus (limites de mandat, révocations…)",
+    "id": "democratie-17",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Possibilité de révoquer les élus",
+    "id": "democratie-18",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Révocatoire",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Mandat de 2 ans pour les élus",
+    "id": "democratie-19",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Constituant",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Voter le budget(depense/recette) par le peuple (https://paulcockshott.wordpress.com/2017/02/03/socialism-and-direct-democracy/)",
+    "id": "democratie-20",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Dessaisir les politiques des choix d’attribution budgétaires et les remplacer par des comités citoyens",
+    "id": "democratie-21",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Respecter l’article 2 de la constitution",
+    "id": "democratie-22",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Constituant",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Référendum constitutionnel intégrant les articles 28 et 35 de la DDHC de 1793 dans la constitution actuelle",
+    "id": "democratie-23",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Constituant",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Utiliser les outils numériques existants pour les redistribuer entre tous les citoyens qui décideront eux-même du cadre légal et de l’orientation sociétale",
+    "id": "democratie-24",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Rendre illégal pour toute figure publique de mentir au public sous peine de perte de 10% de patrimoine, 2 ans de prison et inéligibilité à vie ( élu, éditorialiste, grand patron, politicien, journaliste, représentant syndical, etc - ceux qui passent à la télé quoi)",
+    "id": "democratie-25",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Annulation d'une élection à moins de 50% de participation",
+    "id": "democratie-26",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Mandats impératifs, révocatoires et non cumulables",
+    "id": "democratie-27",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Constituant",
+    "priority": "Moyen"
+  },
+  {
+    "revendication": "Mandat quasi impératif sur la base du programme vendu par l’élu",
+    "id": "democratie-28",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Elections des ministres sur des projets précis",
+    "id": "democratie-29",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Constituant",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Captation vidéo des organes démocratiques",
+    "id": "democratie-30",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Contrôle démocratique des lieux de travail, expropriation des moyens de production (seul moyen de contrôler démocratiquement l’économie)",
+    "id": "democratie-31",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Création de comités de lutte dans les entreprises, occupation permanente gérée par des comités dont les membres sont élu.es et révocables par l’intégralité des salarié.es",
+    "id": "democratie-32",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  },
+  {
+    "revendication": "Suppression du 49.3",
+    "id": "democratie-33",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Constituant",
+    "priority": "Élevé"
+  },
+  {
+    "revendication": "Développer le vote électronique pour toutes les élections afin de lutter contre l'abstention.",
+    "id": "democratie-34",
+    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "ric_type": "Législatif",
+    "priority": "Faible"
+  }
+]

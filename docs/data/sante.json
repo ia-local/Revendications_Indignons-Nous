@@ -2,176 +2,301 @@
   {
     "revendication": "Que n’importe qui sur le territoire est accès à l’ensemble des soins dans un rayon de 50 km",
     "id": "sante-0",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "sante"
   },
   {
     "revendication": "Gratuité réelles des soins et des équipements",
     "id": "sante-1",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 1,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "sante"
   },
   {
     "revendication": "Embauche et hausse des salaires dans l'hôpital public.",
     "id": "sante-2",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "sante"
   },
   {
     "revendication": "Fin de la tarification à l’acte",
     "id": "sante-3",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Abrogatoire",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "sante"
   },
   {
     "revendication": "Augmentations des lits dans les hôpitaux",
     "id": "sante-4",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "sante"
   },
   {
     "revendication": "Obliger les jeunes diplômés de médecine à exercer 10 ans pour le compte de l'Etat dans des secteurs tendus.",
     "id": "sante-5",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "sante"
   },
   {
     "revendication": "Généraliser I.A médicale afin d'accroître l’accès pour tous aux diagnostiques et aux soins de santé.",
     "id": "sante-6",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "sante"
   },
   {
     "revendication": "Ne plus rembourser les cliniques privées.",
     "id": "sante-7",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "sante"
   },
   {
     "revendication": "Interdire la chirurgie esthétique et obliger les dits chirurgiens à sauver des gens plutôt que de rafistoler des bourgeois. (uniquement de la chirurgie esthétique de \"confort\")",
     "id": "sante-8",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "sante"
   },
   {
     "revendication": "Interdiction stricte de cliniques privées ou de blocs opératoires privés",
     "id": "sante-9",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "sante"
   },
   {
     "revendication": "Fin des dépassements d’honoraires pour les médecins.",
     "id": "sante-10",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "sante"
   },
   {
     "revendication": "Supprimer les mutuelles, à fusionner dans une grande Sécurité sociale.",
     "id": "sante-11",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "sante"
   },
   {
     "revendication": "Suppression de toutes les franchises sur médicaments ou consultations",
     "id": "sante-12",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "sante"
   },
   {
     "revendication": "Remboursement des traitements hormonaux dans le cadre d’une transition de genre.",
     "id": "sante-13",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "sante"
   },
   {
     "revendication": "A terme abolir toutes formes d’handicapes via accès pour tous aux options N.B.I.C (Nanotechnologie, Biotechnologie, Informatique, soins Cognitif)",
     "id": "sante-14",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "sante"
   },
   {
     "revendication": "Promouvoir la recherche N.B.I.C pour que chacun (potentiellement) puisse être amortel (Ne plus mourir de la maladie du vieillissement)",
     "id": "sante-15",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "sante"
   },
   {
     "revendication": "Plan de lutte concret contre les violences faites aux femmes et aux enfants",
     "id": "sante-16",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "sante"
   },
   {
     "revendication": "Création d’un monopole national de la vente de cannabis.",
     "id": "sante-17",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "sante"
   },
   {
     "revendication": "Création d’un monopole national de la vente de cannabis uniquement pour usage thérapeutique",
     "id": "sante-18",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "sante"
   },
   {
     "revendication": "Interdiction des drogues et de l’alcool (hors production campagnarde type bouilleur de cru & vin à faible taux éthylique) qui sont des fléaux pour notre société.",
     "id": "sante-19",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "sante"
   },
   {
     "revendication": "Production alcool uniquement pour l’export sauf alcool campagnard artisanal et respectant critères sanitaire et à usage national",
     "id": "sante-20",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "sante"
   },
   {
     "revendication": "Effectuer des campagnes de préventions concernant les dangers notamment institutionnels, des smartphones",
     "id": "sante-21",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "sante"
   },
   {
     "revendication": "Interdire l’accès aux écrans pour les personnes de moins de 12 ans.",
     "id": "sante-22",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "sante"
   },
   {
     "revendication": "Interdire l’accès aux réseaux sociaux avant 16 ans.",
     "id": "sante-23",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "sante"
   },
   {
     "revendication": "Légalisation de toutes les drogues sous contrôle et production publiques, prise en charge et prévention des addictions",
     "id": "sante-24",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "sante"
   }
 ]
