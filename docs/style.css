@@ -1,0 +1,157 @@
+/* style.css */
+
+/* Règles de base et Web Sémantique */
+:root {
+    --color-primary: #0056b3; /* Bleu foncé pour les éléments principaux */
+    --color-secondary: #007bff; /* Bleu vif pour les liens et boutons */
+    --color-background: #f4f4f9; /* Arrière-plan léger */
+    --color-text: #333; /* Texte foncé */
+    --sidebar-width: 250px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+header {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#app-container {
+    display: flex;
+    max-width: 1400px;
+    margin: 20px auto;
+}
+
+/* Menu de navigation latérale (Sidebar) */
+#sidebar-nav {
+    width: var(--sidebar-width);
+    min-width: var(--sidebar-width);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: sticky; /* Menu collant pour un accès facile */
+    top: 20px;
+    height: fit-content;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+}
+
+#sidebar-nav h2 {
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+#menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+#menu-list li {
+    margin-bottom: 5px;
+}
+
+#menu-list a {
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: var(--color-text);
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#menu-list a:hover,
+#menu-list a.active {
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+/* Contenu principal */
+#content-area {
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+#section-title {
+    color: var(--color-primary);
+    margin-top: 0;
+}
+
+#revendications-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+#revendications-list {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+#revendications-list li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 1.05em;
+}
+
+/* Pagination */
+#pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.pagination-btn {
+    padding: 8px 15px;
+    border: 1px solid var(--color-primary);
+    background-color: white;
+    color: var(--color-primary);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.pagination-btn:hover:not(:disabled) {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.pagination-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#page-info {
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+/* Media Query pour les petits écrans */
+@media (max-width: 800px) {
+    #app-container {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    #sidebar-nav {
+        width: auto;
+        min-width: unset;
+        position: static;
+        max-height: none;
+        overflow-y: visible;
+        margin-bottom: 20px;
+    }
+}
