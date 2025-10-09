@@ -2,197 +2,365 @@
   {
     "revendication": "Sortie de l’Euro immédiate",
     "id": "finance_economie-0",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Créer un service public bancaire.",
     "id": "finance_economie-1",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Séparation totale des banques de dépôts et d’investissement",
     "id": "finance_economie-2",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Révision de la politique de la BCE (création monétaire ex nihilo pour financer les services publiques et la transition écologique)",
     "id": "finance_economie-3",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 1,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Renationaliser la Banque de France et sortie de la BCE, seul moyen de retrouver un levier de création monétaire souverain",
     "id": "finance_economie-4",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Régulation de la financiarisation de l’économie réelle (au niveau européen pour commencer).",
     "id": "finance_economie-5",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Voter sur si on continue de payer la dette, si on la suspend ou si on l’annule",
     "id": "finance_economie-6",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Voter sur rendre illégal dans la constitution pour l’état d’emprunter",
     "id": "finance_economie-7",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Constituant",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Taxer les dividendes à 99% (tout en imposant un ratio de x2 du plus petit au plus grand salaire dans une même entreprise pour forcer les profits à être réinvestis)",
     "id": "finance_economie-8",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Interdire les banques privées",
     "id": "finance_economie-9",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 1,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Contrôle plus sévère/sérieux des banques privées",
     "id": "finance_economie-10",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Taxer les dividendes à un taux qui ne dégoutera pas les investisseurs",
     "id": "finance_economie-11",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Sanctionner pénalement et personnellement les dirigeants et clients de banques coupables d’évasion fiscale",
     "id": "finance_economie-12",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Minorer les échanges en dollars",
     "id": "finance_economie-13",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Créer un fond souverain d’investissement populaire",
     "id": "finance_economie-14",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Durcir les règles prudentielles des établissements financiers et en limitant le recours aux supports à risques (titrisation et véhicules trop flous notamment)",
     "id": "finance_economie-15",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Exproprier les actionnaires, consacrer la propriété aux travailleurs eux-mêmes",
     "id": "finance_economie-16",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Nationaliser la bourse, contrôler démocratiquement les prix",
     "id": "finance_economie-17",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Exproprier toutes les banques et les placer sous contrôle d’assemblées dédiées élues et révocables",
     "id": "finance_economie-18",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Refus de l’Euro numérique.",
     "id": "finance_economie-19",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 1,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Abrogatoire",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Refus de l’euro numérique, mais pas de la monnaie numérique (Le Brésil dispose d’un système de paiement numérique via banque étatique accessible aux précaires)",
     "id": "finance_economie-20",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Interdire le financement spatial privé et utiliser l’espace comme vecteur de rassemblement pour l’ensemble de l’humanité.",
     "id": "finance_economie-21",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Développer conquête fond marin afin d’extraction ressources (matières premières minérales) sans excessivement nuire à la faune/flore",
     "id": "finance_economie-22",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Interdire l'extension des brevets au-delà de 25 ans.",
     "id": "finance_economie-23",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Interdire les brevets sur les besoins essentiels : médicaments, agroalimentaire, traitement de l'eau, fourniture d'électricité, matériaux de construction…",
     "id": "finance_economie-24",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 2,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Élevé"
+    "priority": "Élevé",
+    "category": "finance_economie",
+    "totalScore": 1
   },
   {
     "revendication": "Supprimer l’attribution des marchés publics sur le seul critère du prix le plus bas, et rendre obligatoires des critères sociaux et environnementaux mesurable",
     "id": "finance_economie-25",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Moyen"
+    "priority": "Moyen",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Éligibilité et révocabilité à n’importe quel moment de tous les fonctionnaires",
     "id": "finance_economie-26",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   },
   {
     "revendication": "Salaire minimum pour les élus, salaire en fonction de leur temps de travail (peut-être ça leur donnera envie de l’augmenter)",
     "id": "finance_economie-27",
-    "votes": { "oui": 0, "non": 0, "abstention": 0 },
+    "votes": {
+      "oui": 0,
+      "non": 0,
+      "abstention": 0
+    },
     "ric_type": "Législatif",
-    "priority": "Faible"
+    "priority": "Faible",
+    "category": "finance_economie",
+    "totalScore": 0
   }
 ]

@@ -3,13 +3,14 @@
     "revendication": "la culture comme des biens communs relevant d'une exception culturelle, porter les budgets du service public",
     "id": "culture-0",
     "votes": {
-      "oui": 1,
+      "oui": 2,
       "non": 0,
       "abstention": 0
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 6
   },
   {
     "revendication": "Réinstauration d’une taxe pour financer l’audiovisuel public indépendant.",
@@ -21,19 +22,21 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 0
   },
   {
     "revendication": "Obligation de pluralisme politique dans les médias quel que soit le propriétaire",
     "id": "culture-2",
     "votes": {
-      "oui": 0,
+      "oui": 6,
       "non": 0,
-      "abstention": 0
+      "abstention": 1
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 24
   },
   {
     "revendication": "Fin de la nomination par l’exécutif des dirigeants des médias publics (Élection)",
@@ -45,31 +48,34 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 0
   },
   {
     "revendication": "Interdiction de contrôle des médias par des milliardaires.",
     "id": "culture-4",
     "votes": {
-      "oui": 0,
+      "oui": 1,
       "non": 0,
       "abstention": 0
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 4
   },
   {
     "revendication": "Indépendance des médias (via l’élection du CA par les journalistes et non les actionnaires par exemple)",
     "id": "culture-5",
     "votes": {
-      "oui": 0,
+      "oui": 4,
       "non": 0,
       "abstention": 0
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 7
   },
   {
     "revendication": "Mise en place d'un outil bicéphale (CESE et commission mixte citoyens-ONG-syndicats de journalistes par exemple) ayant autorité et pouvoir coercitif pour limiter drastiquement la propriété et l'intervention des personnes physiques ou morales dans les médias ainsi que d’auditer leur financement.",
@@ -81,7 +87,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 0
   },
   {
     "revendication": "Sécurité Sociale de la Culture",
@@ -93,7 +100,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 0
   },
   {
     "revendication": "Simplifier les processus de restitution d’œuvres acquises par le biais de la colonisation.",
@@ -105,7 +113,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 0
   },
   {
     "revendication": "Soutien à la presse indépendante",
@@ -117,7 +126,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 0
   },
   {
     "revendication": "Retour de la redevance publique pour des médias publics indépendants du pouvoir.",
@@ -129,7 +139,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 0
   },
   {
     "revendication": "Sauver la tapisserie de Bayeux qui ne doit pas être transportée (https://www.change.org/p/non-au-prêt-de-la-tapisserie-de-bayeux)",
@@ -141,7 +152,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 0
   },
   {
     "revendication": "Rendre tous les musées gratuits",
@@ -153,7 +165,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 0
   },
   {
     "revendication": "Exproprier les collections privées pour les placer sous contrôle public.",
@@ -165,7 +178,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 0
   },
   {
     "revendication": "Procurer à chaque habitant de France un budget annuel lui permettant exclusivement de financer une licence sportive",
@@ -177,6 +191,7 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "culture"
+    "category": "culture",
+    "totalScore": 0
   }
 ]

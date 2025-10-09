@@ -1,9 +1,6 @@
-/* modal.css */
+/* modal.css (AJUSTEMENT FINAL DE LA GRILLE ET DES BOUTONS DE VOTE RIC) */
 
 /* Variables de couleurs (réutilisation des couleurs de style.css) */
-/* modal.css (AJOUT DE STYLES POUR LE VOTE) */
-
-/* Variables de couleurs */
 :root {
     --color-primary: #0056b3; 
     --color-secondary: #007bff; 
@@ -14,10 +11,9 @@
 }
 
 /* ------------------------------------- */
-/* Styles pour le Contenu de la MODAL.   */
+/* Styles de la MODAL (Inchangés) */
 /* ------------------------------------- */
 
-/* Le conteneur modal principal, initialement caché */
 .modal {
     display: none;
     position: fixed;
@@ -26,25 +22,23 @@
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.7); /* Fond plus foncé pour mettre en valeur la modale */
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(5px);
 }
 
-/* Le contenu de la modale */
 .modal-content {
     background-color: #ffffff;
-    margin: 5vh auto; /* Marge du haut réduite pour les grands écrans */
+    margin: 40px auto; 
     padding: 30px;
     border: 1px solid #ddd;
-    width: 90%;
-    max-width: 850px; /* Augmenté pour l'analyse détaillée */
+    width: 95%;
+    max-width: 1000px;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     position: relative;
 }
 
-/* Bouton de fermeture (X) */
 .close-button {
     color: #888;
     float: right;
@@ -56,149 +50,165 @@
 
 .close-button:hover,
 .close-button:focus {
-    color: #333;
+    color: var(--color-danger);
 }
 
-/* ------------------------------------- */
-/* Styles pour le Contenu Généré par l'IA */
-/* ------------------------------------- */
-
-#modal-body h2 {
-    /* Titres de niveau 2 (étapes 1 et 2) */
-    color: var(--color-primary); 
+/* LIGNE 1: Titre de la Revendication (Inchangée) */
+#original-revendication-title {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: var(--color-primary);
     border-bottom: 3px solid var(--color-secondary);
-    padding-bottom: 8px;
-    margin-top: 30px;
-    font-size: 1.5em;
-}
-
-#modal-body h3 {
-    /* Titres de niveau 3 (dans le contenu IA) - souvent générés par Markdown (###) */
-    color: #555;
-    margin-top: 15px;
-    font-size: 1.25em;
-}
-
-#original-revendication {
-    font-style: italic;
-    font-weight: 600;
-    color: #333;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-left: 5px solid var(--color-secondary);
-    border-radius: 4px;
-}
-
-/* Styles pour les listes (ul/ol) générées par l'IA */
-#detail-result ul,
-#optimization-result ul,
-#detail-result ol,
-#optimization-result ol {
-    padding-left: 25px;
-    margin-top: 10px;
-}
-
-#detail-result li,
-#optimization-result li {
-    margin-bottom: 6px;
-    line-height: 1.6;
-}
-
-/* Indicateur de chargement */
-.loading-indicator {
-    text-align: center;
-    padding: 30px;
-    font-style: italic;
-    color: var(--color-secondary);
-    border: 1px dashed #ccc;
-    border-radius: 6px;
+    padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
-/* ------------------------------------- */
-/* NOUVEAUX STYLES : CONTRÔLES DE VOTE */
-/* ------------------------------------- */
+.revendication-text-source {
+    display: none;
+}
 
-#vote-controls-container {
-    padding: 15px 20px;
-    background-color: #f7f7f7;
+/* LIGNE 2: Conteneur de l'Image (Inchangée) */
+#image-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
     border-radius: 8px;
-    margin-bottom: 25px;
+    background-color: #fcfcfc;
+}
+
+#image-container .step-title {
+    color: var(--color-secondary);
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    margin-top: 0; 
+    margin-bottom: 10px;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 280px; 
+    background-color: #f0f0f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.analysis-image {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+    border-radius: 8px;
     border: 1px solid #ddd;
 }
 
-.ric-status {
-    color: var(--color-primary);
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-size: 1.4em;
+/* LIGNE 3: Grille des Analyses (Thèse et Solution) - Inchangée */
+#analysis-grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 30px;
 }
 
-.ric-status strong {
-    color: var(--color-danger);
-    background-color: #ffffe0; /* Surlignage pour le type RIC */
-    padding: 2px 5px;
-    border-radius: 4px;
+.analysis-column .step-title {
+    color: var(--color-primary);
+    font-size: 1.3em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 0; 
+    margin-bottom: 15px;
+}
+
+.ia-panel {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 6px;
+    min-height: 200px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+    overflow-y: auto; 
+    max-height: 400px; 
+}
+
+/* ... (Styles de l'IA, indicateur, etc. inchangés) ... */
+
+/* ------------------------------------- */
+/* LIGNE 4: CONTRÔLES DE VOTE ET SCORE */
+/* ------------------------------------- */
+
+#vote-score-controls {
+    padding-top: 20px;
+    border-top: 3px solid var(--color-primary);
+}
+
+/* Conteneur principal pour le score (géré par score-vote.js) */
+.score-priorization-area {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+/* --- Styles pour le Vote Simple RIC (1. Vote Simple) --- */
+
+.ric-simple-vote-area h4 {
+    color: var(--color-secondary);
+    font-size: 1.2em;
+    margin-bottom: 15px;
 }
 
 .vote-summary-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 0.9em;
-    color: #555;
-}
-
-.total-votes-count {
-    font-weight: bold;
-    color: var(--color-secondary);
 }
 
 .vote-details {
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
-    font-weight: bold;
-    font-size: 0.95em;
-    color: var(--color-text);
+    font-size: 1em;
+    font-weight: 600;
 }
 
-/* Barre de progression des votes */
 .vote-progress-bar {
     display: flex;
     width: 100%;
-    height: 15px;
+    height: 18px; /* Ligne de progression plus visible */
     background-color: #e9ecef;
-    border-radius: 5px;
+    border-radius: 9px;
     overflow: hidden;
     margin-bottom: 15px;
 }
 
 .progress-segment {
     height: 100%;
-    transition: width 0.5s ease-out;
 }
 
-/* Boutons de vote */
 .vote-actions {
     text-align: center;
-    padding-top: 15px;
-    border-top: 1px solid #eee;
+    padding: 15px 0;
+    margin-top: 10px;
 }
 
+/* Style des Boutons de Vote (Oui/Non/Abstention) */
 .vote-btn {
-    padding: 10px 18px;
+    padding: 12px 25px; /* Rendre les boutons plus grands */
     border: none;
-    border-radius: 5px;
-    margin: 0 5px;
+    border-radius: 6px;
+    margin: 0 8px;
     cursor: pointer;
     font-weight: bold;
-    transition: transform 0.1s, opacity 0.1s;
+    font-size: 1.05em;
+    transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .vote-btn:hover {
-    transform: translateY(-1px);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 .vote-oui {
@@ -213,17 +223,120 @@
 
 .vote-abstention {
     background-color: var(--color-warning);
-    color: var(--color-text);
+    color: var(--color-text); /* Texte noir/foncé pour le fond jaune */
 }
 
-.info-message {
-    margin-top: 10px;
-    font-style: italic;
-    font-size: 0.9em;
+/* --- Styles pour le Score de Priorisation (2. Score) --- */
+
+.score-control-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.score-submit-btn {
+    background-color: var(--color-primary);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Media Query pour la réactivité */
+@media (max-width: 900px) {
+    .modal-content {
+        margin: 20px auto;
+        padding: 15px;
+        max-width: 95%;
+    }
+    
+    #analysis-grid-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .ia-panel {
+        max-height: none;
+    }
+    
+    .vote-btn {
+        margin: 5px;
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+}
+/* modal.css (Styles pour les indicateurs dynamiques) */
+
+/* ... (Styles précédents inchangés) ... */
+
+/* ------------------------------------- */
+/* NOUVEAUX STYLES: BARRE D'INDICATEURS DYNAMIQUES */
+/* ------------------------------------- */
+.dynamic-indicator-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-background);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.indicator-item {
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid #eee;
+    padding: 0 10px;
+}
+
+.indicator-item:last-child {
+    border-right: none;
+}
+
+.indicator-item .label {
+    display: block;
+    font-size: 0.85em;
     color: #666;
+    margin-bottom: 3px;
+    font-weight: 500;
 }
 
-.error-message {
-    color: var(--color-danger);
+.indicator-item .value {
+    font-size: 1.2em;
     font-weight: bold;
 }
+
+/* Couleurs spécifiques aux valeurs */
+.score-value {
+    color: var(--color-primary);
+}
+
+.oui-value {
+    color: var(--color-success);
+}
+
+.non-value {
+    color: var(--color-danger);
+}
+
+/* Media Query pour la réactivité */
+@media (max-width: 700px) {
+    .dynamic-indicator-bar {
+        flex-wrap: wrap;
+    }
+    .indicator-item {
+        width: 48%; /* Deux colonnes sur mobile */
+        border-right: none;
+        margin: 5px 0;
+        padding: 5px;
+        border-bottom: 1px dashed #eee;
+    }
+}
+/* ... (Reste du CSS de la modale) ... */

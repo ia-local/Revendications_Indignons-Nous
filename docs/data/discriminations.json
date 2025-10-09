@@ -9,7 +9,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Renforcer la protection animale.",
@@ -21,7 +22,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Plan de lutte contre le harcèlement",
@@ -33,7 +35,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Fin des politiques EDI (dites Equité, Diversité et Inclusion) discriminantes dans les entreprises publiques",
@@ -45,7 +48,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Protections accrues des juifs de France.",
@@ -57,7 +61,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Assurer une véritable laïcité et donc protéger toutes minorités religieuses en gardant à l’esprit que la majorité de la population est athée (60%)",
@@ -69,7 +74,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Abrogation des lois islamophobes (contre le voile à l’école, loi séparatisme, loi sur l’entrisme).",
@@ -81,7 +87,8 @@
     },
     "ric_type": "Abrogatoire",
     "priority": "Moyen",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Analyse sociologique quantitative des auteurs d’agressions de femmes et de LGBTQ+ (et d’hommes)",
@@ -93,7 +100,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Re financement à grande échelle des initiatives associatives locales luttant contre les discriminations",
@@ -105,7 +113,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Investissement dans des équipements sportifs, culturels etc, dans les quartiers défavorisés",
@@ -117,7 +126,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Financer les campagnes.",
@@ -129,19 +139,21 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Dissolution des groupes violents d'extrême droite",
     "id": "discriminations-11",
     "votes": {
-      "oui": 0,
+      "oui": 2,
       "non": 0,
       "abstention": 0
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 17
   },
   {
     "revendication": "Protection de la vie de nos anciens et des personnes atteintes de handicap par abrogation de la loi sur l’euthanasie et suicide assisté.",
@@ -153,7 +165,8 @@
     },
     "ric_type": "Abrogatoire",
     "priority": "Faible",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Proposer option cryogénisation à tarif sécu pour tous afin que cesse la discrimination biologique arbitraire envers notre espèce malheureusement obsolescente vs certains animaux et plantes qui ne décèdent que suite à accident ou à prédation humaine.",
@@ -165,19 +178,21 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Mettre en place un véritable plan national d’accès aux infrastructures pour tous les handicapés.",
     "id": "discriminations-14",
     "votes": {
-      "oui": 0,
+      "oui": 2,
       "non": 0,
       "abstention": 0
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Interdiction des mutilation et traitement non consenti sur les intersexe",
@@ -189,7 +204,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "La transcription dans le droit français de la Convention ONU des droits des personnes handicapées et sa mise en œuvre effective",
@@ -201,7 +217,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Un droit à la vie autonome des personnes handicapées entièrement financé par la solidarité nationale, des budgets d'assistance personnelle et des services pour la vie autonome, répondant aux besoins et aspirations des personnes handicapées, avec un échéancier de désinstitutionnalisation et un moratoire sur la création de places en institution",
@@ -213,7 +230,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "La fin du report des obligations de mise en accessibilité (physique, communicationnelle et numérique) et l'imposition de sanctions significatives en cas de non-respect de l'accessibilité universelle.",
@@ -225,7 +243,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Abrogation de l'article 64 de la loi ÉLAN et un programme national de construction de logements accessibles et adaptables (construction de 100 % de logements accessibles et adaptables, assortis d'une obligation d'installation d'ascenseur dès le premier niveau)",
@@ -237,7 +256,8 @@
     },
     "ric_type": "Abrogatoire",
     "priority": "Moyen",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Un droit inconditionnel à la scolarité de tous les enfants et à la formation de tous les adultes, avec tous les moyens humains, matériels, pédagogiques et organisationnels nécessaires, et des locaux permettant l'organisation du suivi médico-social en son sein.",
@@ -249,7 +269,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Abrogation de l'article 1er de la loi de 2005 avec la fin de la confusion entre associations représentatives des personnes handicapées et associations gestionnaires d'établissements et services, dont le conflit d'intérêts est dénoncé par l'ONU",
@@ -261,7 +282,8 @@
     },
     "ric_type": "Abrogatoire",
     "priority": "Faible",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   },
   {
     "revendication": "Représentation réelle et effective des personnes handicapées, avec des conseils départementaux consultatifs de l'autonomie et un Conseil national des personnes handicapées ayant voix délibérative et dont les membres sont élus localement au sein des MDPH, parmi les représentants de collectifs militants non gestionnaires.",
@@ -273,6 +295,7 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "discriminations"
+    "category": "discriminations",
+    "totalScore": 0
   }
 ]

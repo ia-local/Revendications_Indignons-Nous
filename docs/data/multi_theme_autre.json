@@ -9,19 +9,21 @@
     },
     "ric_type": "Abrogatoire",
     "priority": "Moyen",
-    "category": "multi_theme_autre"
+    "category": "multi_theme_autre",
+    "totalScore": 0
   },
   {
     "revendication": "Destitution de Macron",
     "id": "multi_theme_autre-1",
     "votes": {
-      "oui": 1,
+      "oui": 2,
       "non": 0,
       "abstention": 0
     },
     "ric_type": "Révocatoire",
     "priority": "Élevé",
-    "category": "multi_theme_autre"
+    "category": "multi_theme_autre",
+    "totalScore": 0
   },
   {
     "revendication": "Abroger toutes les lois et réformes écocidaire et de casse sociale depuis la loi travail",
@@ -33,7 +35,8 @@
     },
     "ric_type": "Abrogatoire",
     "priority": "Élevé",
-    "category": "multi_theme_autre"
+    "category": "multi_theme_autre",
+    "totalScore": 0
   },
   {
     "revendication": "Instruire le procès de Macron pour haute trahison",
@@ -45,19 +48,21 @@
     },
     "ric_type": "Révocatoire",
     "priority": "Élevé",
-    "category": "multi_theme_autre"
+    "category": "multi_theme_autre",
+    "totalScore": 0
   },
   {
     "revendication": "Démission de Bayrou",
     "id": "multi_theme_autre-4",
     "votes": {
-      "oui": 0,
+      "oui": 6,
       "non": 0,
       "abstention": 0
     },
     "ric_type": "Révocatoire",
     "priority": "Moyen",
-    "category": "multi_theme_autre"
+    "category": "multi_theme_autre",
+    "totalScore": 49
   },
   {
     "revendication": "Démission de Macron",
@@ -69,7 +74,8 @@
     },
     "ric_type": "Révocatoire",
     "priority": "Élevé",
-    "category": "multi_theme_autre"
+    "category": "multi_theme_autre",
+    "totalScore": 0
   },
   {
     "revendication": "Enquête sur le patrimoine caché aux îles Jersey d’E.Macron",
@@ -81,7 +87,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "multi_theme_autre"
+    "category": "multi_theme_autre",
+    "totalScore": 0
   },
   {
     "revendication": "Taxer toutes les personnes nées avant 1975 afin de financer l’ensemble des problèmes actuels qu’elles ont laissé croître et les inviter à arrêter de prendre l'ascendance",
@@ -93,6 +100,7 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "multi_theme_autre"
+    "category": "multi_theme_autre",
+    "totalScore": 0
   }
 ]

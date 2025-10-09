@@ -3,7 +3,7 @@
     "revendication": "Désarmement de la police municipale et formation aux questions antiracistes.",
     "id": "police_armee-0",
     "votes": {
-      "oui": 0,
+      "oui": 2,
       "non": 0,
       "abstention": 0
     },
@@ -75,7 +75,7 @@
     "revendication": "Fin de la politique du chiffre dans la police",
     "id": "police_armee-6",
     "votes": {
-      "oui": 0,
+      "oui": 1,
       "non": 0,
       "abstention": 0
     },
@@ -101,7 +101,7 @@
     "votes": {
       "oui": 0,
       "non": 0,
-      "abstention": 0
+      "abstention": 1
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
@@ -185,7 +185,7 @@
     "votes": {
       "oui": 0,
       "non": 0,
-      "abstention": 0
+      "abstention": 1
     },
     "ric_type": "Législatif",
     "priority": "Moyen",

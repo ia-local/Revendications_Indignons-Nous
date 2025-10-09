@@ -41,7 +41,7 @@
     "votes": {
       "oui": 0,
       "non": 0,
-      "abstention": 0
+      "abstention": 1
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
@@ -101,7 +101,7 @@
     "votes": {
       "oui": 0,
       "non": 0,
-      "abstention": 0
+      "abstention": 1
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
@@ -267,7 +267,7 @@
     "revendication": "Fin de la vente d’arme à des régimes autoritaires",
     "id": "international-22",
     "votes": {
-      "oui": 0,
+      "oui": 1,
       "non": 0,
       "abstention": 0
     },

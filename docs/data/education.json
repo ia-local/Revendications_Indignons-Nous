@@ -9,7 +9,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Changement de politique sur l’orientation (arrêt des classements).",
@@ -21,7 +22,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Fin des notes",
@@ -33,7 +35,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Réforme de l’éducation (cours intellectuels le matin, ludiques l’après-midi, plus de cours après 16h).",
@@ -45,7 +48,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Entraide et co-responsabilisation à la place de sélection et compétition",
@@ -57,7 +61,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Sécurité Sociale de l’Éducation",
@@ -69,7 +74,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Retour aux apprentissages fondamentaux (lecture, écriture, math)",
@@ -81,7 +87,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Effectivité des cours d’éducation à la vie relationnelle et sexuelle obligatoire et en faire une matière importante.",
@@ -93,7 +100,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Fin de l’école privée, interdiction de faire payer pour l’éducation",
@@ -105,7 +113,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Fin de l’éducation confessionnelle à l’école, y compris en Alsace-Lorraine.",
@@ -117,7 +126,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Interdiction des écoles religieuse intégristes (quel que soit la religion).",
@@ -129,7 +139,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Augmentation du budget de l’éducation nationale pour une revalorisation des enseignants",
@@ -141,7 +152,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Revenir aux fondamentaux de l’école, apprendre à lire, à écrire et à compter",
@@ -153,19 +165,21 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Augmentation de la rémunération de l’ensemble du personnel pédagogique et technique de l’éducation nationale (cantinière, pions, profs, technicien, AESH, etc…) ainsi que la mise à disposition de véritables moyens pour faire face au déficit de savoir.",
     "id": "education-13",
     "votes": {
-      "oui": 0,
+      "oui": 2,
       "non": 0,
-      "abstention": 1
+      "abstention": 2
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "education"
+    "category": "education",
+    "totalScore": 12
   },
   {
     "revendication": "Démantèlement du corps des inspecteurs, évaluation des pratiques pédagogiques des enseignants par les pairs",
@@ -177,7 +191,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Sanctions et contrôles stricts du personnel défaillant afin d’assurer une entière sécurité pour le public mineur",
@@ -189,7 +204,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Maintien des pédagogies alternatives hors contrat",
@@ -201,7 +217,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Augmentation des taux d’encadrement dans le scolaire, l’extra scolaire et le périscolaire",
@@ -213,7 +230,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Déploiement des projets d’écoles dehors",
@@ -225,7 +243,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Apprentissage des fondamentaux de la cuisine, du bricolage et de la couture",
@@ -237,7 +256,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Gratuité des fournitures scolaires",
@@ -249,19 +269,21 @@
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Gratuité des cantines",
     "id": "education-21",
     "votes": {
-      "oui": 0,
-      "non": 0,
-      "abstention": 0
+      "oui": 3,
+      "non": 1,
+      "abstention": 2
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Plus de salles de classe pour les collégiens",
@@ -273,7 +295,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Fin de Parcours Sup",
@@ -285,7 +308,8 @@
     },
     "ric_type": "Abrogatoire",
     "priority": "Élevé",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Ouverture de places en fac",
@@ -297,7 +321,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Salaire étudiant",
@@ -309,7 +334,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Cantines bio et locales, avec une alternative végé pour les différentes convictions et confessions",
@@ -321,7 +347,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Moyen",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Plus petits effectifs dans les classes (maximum 20)",
@@ -333,7 +360,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Élevé",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Apprentissage des fondamentaux de la cuisine, du bricolage, de la couture* et de la mécanique",
@@ -345,7 +373,8 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   },
   {
     "revendication": "Prévoir un budget pour permettre d'organiser des sorties bi-hebdomadaires (+ ou -) pour apprendre à connaître son environnement naturel et social (type accompagné de naturalistes, pour découvrir les biomes, faire des randonnées, participer à des projets communautaires etc.)",
@@ -357,6 +386,7 @@
     },
     "ric_type": "Législatif",
     "priority": "Faible",
-    "category": "education"
+    "category": "education",
+    "totalScore": 0
   }
 ]

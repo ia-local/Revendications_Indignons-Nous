@@ -97,8 +97,7 @@ function renderRevendications(container) {
     revendicationsToShow.forEach((item) => {
         const safeRevendication = item.revendication.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
         
-        const totalVotes = item.totalVotes || 0; 
-        const participationText = totalVotes > 0 ? `${totalVotes} Votes` : 'Pas encore de vote';
+        const totalScore = item.totalScore || 0; 
         
         cardsHTML += `
             <div class="revendication-card priority-${item.priority.toLowerCase()}">
@@ -111,8 +110,12 @@ function renderRevendications(container) {
                 <div class="card-body">
                     <p class="card-revendication-text">${item.revendication}</p>
                     <p class="card-votes-summary">
-                        Votes totaux (Oui/Non/Abstention): ${totalVotes} 
-                        <span class="vote-count">(${participationText})</span>
+                        <span class="vote-detail-label">Vote Simple (RIC) :</span>
+                        <span class="vote-detail-oui">Oui: <strong>${item.votes.oui || 0}</strong></span> | 
+                        <span class="vote-detail-non">Non: <strong>${item.votes.non || 0}</strong></span> | 
+                        <span class="vote-detail-abstention">Abstention: <strong>${item.votes.abstention || 0}</strong></span>
+                        <br/>
+                        Score de Priorisation (Points attribués) : <strong>${totalScore}</strong> points
                     </p>
                 </div>
                 
@@ -150,8 +153,8 @@ function renderRevendications(container) {
  * Attache les écouteurs pour la pagination et l'ouverture de la modale.
  */
 function attachRevendicationListeners(container, totalPages) {
-    const revendicationsSection = container.querySelector('#revendications-section');
-
+    // La référence à la section complète est maintenant le container
+    
     document.querySelectorAll('.open-modal-btn').forEach(button => {
         button.addEventListener('click', (e) => {
             e.preventDefault();
@@ -170,7 +173,8 @@ function attachRevendicationListeners(container, totalPages) {
     document.getElementById('prev-btn')?.addEventListener('click', () => {
         if (currentPage > 1) {
             currentPage--;
-            renderRevendications(revendicationsSection);
+            // Appeler renderRevendications avec le conteneur parent
+            renderRevendications(container);
             document.getElementById('content-area')?.scrollIntoView({ behavior: 'smooth' });
         }
     });
@@ -178,8 +182,17 @@ function attachRevendicationListeners(container, totalPages) {
     document.getElementById('next-btn')?.addEventListener('click', () => {
         if (currentPage < totalPages) {
             currentPage++;
-            renderRevendications(revendicationsSection);
+            // Appeler renderRevendications avec le conteneur parent
+            renderRevendications(container);
             document.getElementById('content-area')?.scrollIntoView({ behavior: 'smooth' });
         }
     });
 }
+
+// Rendre la fonction accessible globalement pour le rafraîchissement après vote
+window.renderRevendicationsView = () => {
+    const container = document.getElementById('revendications-section');
+    if (container) {
+        renderRevendications(container);
+    }
+};
